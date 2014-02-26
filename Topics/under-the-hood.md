@@ -16,6 +16,6 @@ Orchard's multi-tenancy is powerful but in its basic form it's not enough to run
 
 All this is part of a suite of Orchard modules called the Lombiq Hosting Suite. [You can learn more about the Lombiq Hosting Suite here](lombiq-hosting-suite).
 
-DotNest sites don't need Warmup as they are always kept warm. Also there is no need to do output caching from Orchard because a reverse proxy is sitting before the web servers, caching unauthenticated responses.
+Also see [what is automatically managed for your tenant](managed-by-dotnest) by the system.
 
 DotNest runs on Azure, Microsoft's flexible, reliable, high-performance cloud platform.

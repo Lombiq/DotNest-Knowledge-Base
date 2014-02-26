@@ -8,6 +8,7 @@
 - [Who operates DotNest?](about-lombiq)
 - [Getting started with Orchard](getting-started-with-orchard)
 - [How does DotNest work?](under-the-hood)
+- [What is automatically managed by DotNest for your tenant?](managed-by-dotnest)
 - [The Lombiq Hosting Suite](lombiq-hosting-suite)
 - [Automating tasks on DotNest](automating-tasks)
 - [Available modules and themes for DotNest sites](available-modules-and-themes)
