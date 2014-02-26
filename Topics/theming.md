@@ -30,9 +30,11 @@ First make the DotNest Empty theme the current theme first, since this theme inc
 
 You can upload graphics or other static files through Media Library and reference them with their URL from CSS/JS. For this you can follow some conventions for better maintainability like placing your theme-related files into the Theme (or Themes/MyTheme) folder in media.
 
-### Developing a theme and deploying it to your site with MediaTheme
+### Developing a theme and deploying it to your site with Media Theme
 
-DotNest sites include the MediaTheme theme: this theme enables you to extract a theme to the MediaTheme folder in Media (with regular Placement.info, Scripts and Styles folder) and use those. Just set the MediaTheme as the current theme and then configure it from Media Theme Configuration under Themes.
+DotNest sites include the Media Theme theme and the Media Theme Deployment module: the theme enables you to extract a theme to the MediaTheme folder in Media (with regular Placement.info, Scripts and Styles folder) and use those. Just set the MediaTheme as the current theme; if you want to have automatic deployment for such theme packages then also enable the Media Theme Deployment module and configure it from Media Theme Deployment Configuration under Themes.
+
+You can just use the Media Theme theme and store your theme files (stylesheets, scripts, Placement.info) under the MediaTheme folder in Media Library but it's better to use the theme together with the Media Theme Deployment module so you can take advantage of the automatic theme package deployment, outlined below.
 
 You can set up an URL to a zip file to be deployed as the theme. You can use this to deploy from your source control or from storage providers like Dropbox. For Bitbucket the theme package URL can be the URL of the automatically generated zip file for an arbitrary branch of the repository. Also you can use the hook URL (displayed on the admin UI of MediaTheme) to invoke a deploy when you push to your repository.
 
