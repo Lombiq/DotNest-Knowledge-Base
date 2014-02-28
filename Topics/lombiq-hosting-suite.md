@@ -39,7 +39,7 @@ Detailed features, per modules of the Hosting Suite:
     - Lucene search indices are removed from blob Storage when a tenant is removed.
 - Lombiq.Hosting.Azure.Indexing: extends Orchard's search indexing services to optimize them for Azure.
     - Enables Lucene indexing to use Blob storage (with local cache).
-- Lombiq.Hosting.DistributedEvents: adds the ability to broadcast events between nodes of a multi-server environment.
+- [Lombiq.Hosting.DistributedEvents](https://orcharddistributedevents.codeplex.com/): adds the ability to broadcast events between nodes of a multi-server environment.
     - Generic extensible services for event broadcasting.
     - Implementations for broadcasting shell events and signals. Thus server nodes are thus  always in sync, even if data is stored in the otherwise instance-local  CacheManager. This means changes in e.g. content type definitions,  feature states or roles will propagate to other server nodes.
 - [Lombiq.Hosting.Readonly](http://orchardreadonly.codeplex.com/): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe  deployment scenarios where before updating the application its database  is backed up, as Readonly prevents data loss in such a transitional  state.
