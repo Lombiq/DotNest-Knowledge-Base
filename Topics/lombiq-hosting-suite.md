@@ -17,7 +17,10 @@ Detailed features, per modules of the Hosting Suite:
     - Exposes fine-grained events that can be used to subscribe to shell settings  changes, even if those are invoked from another shell. Such events can  be used to extend shell management in arbitrary ways.
     - Adds the  ability to have a common database for all tenants where the connection  string is stored only once, not per tenant as usual. This makes it  possible to move the application to a different database (like between a staging and production environment) by changing only one connection  string.
     - On demand shell activation: shells are only activated if a request arrives to their tenant. This dramatically reduces app start  time and conserves computing resources.
-- Lombiq.Hosting: exposes hosting services, both as service classes and web services.
+- Lombiq.Hosting: contains some generic services related to hosting Orchard.
+	- An HTTP module for restoring the original host header for Orchard if the site runs behind a reverse proxy that changes the host header.
+	- An event raising implementation for Lombiq.Hosting.DistributedEvents that uses a file system watcher on shared files to notify server nodes of an event (usable e.g. on Azure Web Sites or with a shared storage folder).
+- Lombiq.Hosting.MultiTenancy: exposes hosting services, both as service classes and web services, for managing a multi tenant Orchard environment.
     - Tenant management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up tenants.
     - Adds the  ability to set an isolated database environment for tenants by putting  tenants' tables under a different SQL Server schema, accessed through an automatically generated user.
     - Exposes services for managing tenants that run Lombiq.Hosting.Tenants.
@@ -25,12 +28,12 @@ Detailed features, per modules of the Hosting Suite:
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising  service for instant event propagation that can be used with shared file  systems.
     - Makes the tenant management admin page only fetch what  it displays and adds paging for long lists of tenants. This removes any  limitation on the number of tenants that can be managed from the admin  UI.
-- Lombiq.Hosting.Tenants: runs on the tenants of a hosting environment. Provides the following services:
+- Lombiq.Hosting.MultiTenancy.Tenants: runs on the tenants of a hosting environment. Provides the following services:
     - Feature guard: prevents configured features from being turned on or off on  tenants, providing configurable constraints on what tenants can do.
     - Storage quota management: continuously updates media storage usage data and enforces a configured storage quota.
     - Runtime quota management: enforces a configured runtime quota, i.e. it will  shut down shells after a period of inactivity, conserving computing  resources (think app pool idle timeout for tenants) and dramatically  improving tenant density.
     - Exposes various events and configuration points for extending functionality.
-- Lombiq.Hosting.Bridge: provides interoperability between Lombiq.Hosting and  Lombiq.Hosting.Tenants. Hosting and Hosting.Tenants are not coupled but  play together through the common interfaces defined in Bridge.
+- Lombiq.Hosting.MultiTenancy.Bridge: provides interoperability between Lombiq.Hosting and  Lombiq.Hosting.Tenants. Hosting and Hosting.Tenants are not coupled but  play together through the common interfaces defined in Bridge.
 - Lombiq.Hosting.Stateless: adds general features for making the Orchard webserver stateless.
     - Makes the Reports module not store anything in App_Data.
     - Makes indexing services don't store anything in App_Data.
