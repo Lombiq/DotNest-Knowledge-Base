@@ -24,4 +24,4 @@
 
 ## Contributing to the DotNest Knowledge Base
 
-The DotNest DotNest Knowledge Base is a set of Markdown-formatted text files in [a public repository](http://source.lombiq.com/dotnest-knowledge-base) that anybody can fork and modify (contribution guidelines are [the same as for the Dojo Library](http://orcharddojo.net/orchard-resources/Library/ContributionGuideLines)). You can also [open issues](http://source.lombiq.com/dotnest-documentation/issues?status=new&status=open) if you found some error.
+The DotNest DotNest Knowledge Base is a set of Markdown-formatted text files in [a public repository](http://source.lombiq.com/dotnest-knowledge-base) that anybody can fork and modify (contribution guidelines are [the same as for the Dojo Library](http://orcharddojo.net/orchard-resources/Library/ContributionGuideLines)). You can also [open issues](http://source.lombiq.com/dotnest-knowledge-base/issues?status=new&status=open) if you found some error.
