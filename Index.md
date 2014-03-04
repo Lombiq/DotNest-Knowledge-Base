@@ -4,18 +4,19 @@
 
 ## Documentation topics
 
-- [What is DotNest?](about-dotnest)
-- [Who operates DotNest?](about-lombiq)
-- [Getting started with Orchard](getting-started-with-orchard)
-- [How does DotNest work?](under-the-hood)
-- [What is automatically managed by DotNest for your tenant?](managed-by-dotnest)
-- [The Lombiq Hosting Suite](lombiq-hosting-suite)
-- [Automating tasks on DotNest](automating-tasks)
-- [Available modules and themes for DotNest sites](available-modules-and-themes)
-- [Theming a DotNest site](theming)
-- [Using a custom domain name](custom-domains)
-- [Migrating your site to DotNest](migrating-to-dotnest)
-- [Limitations](limitations)
+- [What is DotNest?](topics/about-dotnest)
+- [Who operates DotNest?](topics/about-lombiq)
+- [Getting started with Orchard](topics/getting-started-with-orchard)
+- [How does DotNest work?](topics/under-the-hood)
+- [What is automatically managed by DotNest for your tenant?](topics/managed-by-dotnest)
+- [The Lombiq Hosting Suite](topics/lombiq-hosting-suite)
+- [Automating tasks on DotNest](topics/automating-tasks)
+- [Available modules and themes for DotNest sites](topics/available-modules-and-themes)
+- [Theming a DotNest site](topics/theming)
+- [Using a custom domain name](topics/custom-domains)
+- [Security](topics/security)
+- [Migrating your site to DotNest](topics/migrating-to-dotnest)
+- [Limitations](topics/limitations)
 
 
 ## More support
