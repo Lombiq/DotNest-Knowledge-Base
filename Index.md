@@ -21,6 +21,11 @@
 
 ## More support
 
+You can get help, don't worry!
+
+- You can always use the [forum](/forums/dotnest-support-and-ideas). That's like a forum, more or less.
+- Or you can of course [contact us](/contact-us) directly too.
+
 
 ## Contributing to the DotNest Knowledge Base
 
