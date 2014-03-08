@@ -24,7 +24,7 @@ Detailed features, per modules of the Hosting Suite:
     - Tenant management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up tenants.
     - Adds the  ability to set an isolated database environment for tenants by putting  tenants' tables under a different SQL Server schema, accessed through an automatically generated user.
     - Exposes services for managing tenants that run Lombiq.Hosting.Tenants.
-    - Has services for running batches of upgrades for tenants that can also be  started from a web API endpoint. This can be used to change tenants in  bulk (like enabling modules, changing settings).
+    - Has services for running batches of maintenance steps for tenants that can also be started from a web API endpoint. This can be used to change tenants in bulk (like enabling modules, changing settings, running upgrades).
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising  service for instant event propagation that can be used with shared file  systems.
     - Makes the tenant management admin page only fetch what  it displays and adds paging for long lists of tenants. This removes any  limitation on the number of tenants that can be managed from the admin  UI.
