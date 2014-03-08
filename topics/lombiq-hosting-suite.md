@@ -35,8 +35,8 @@ Detailed features, per modules of the Hosting Suite:
     - Exposes various events and configuration points for extending functionality.
 - Lombiq.Hosting.MultiTenancy.Bridge: provides interoperability between Lombiq.Hosting and  Lombiq.Hosting.Tenants. Hosting and Hosting.Tenants are not coupled but  play together through the common interfaces defined in Bridge.
 - Lombiq.Hosting.Stateless: adds general features for making the Orchard webserver stateless.
-    - Makes the Reports module not store anything in App_Data.
-    - Makes indexing services don't store anything in App_Data.
+    - Makes the Reports module not store anything in App\_Data.
+    - Makes indexing services don't store anything in App\_Data.
 - Lombiq.Hosting.Azure: contains extensions for the Hosting Suite for enhancing it on Azure.
     - The media folder of the tenant is removed from Blob Storage when a tenant is removed.
     - Lucene search indices are removed from blob Storage when a tenant is removed.
