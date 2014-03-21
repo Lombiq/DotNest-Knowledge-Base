@@ -1,8 +1,8 @@
-# The Lombiq Hosting Suite
+# The Lombiq Hosting Suite - the technology behind DotNest that you can use in your own application
 
 
 
-The Lombiq Hosting Suite is a set of  modules that deal with various aspect of hosting Orchard applications in efficient, maintainable ways. It drives DotNest too but you can use it to improve your own application. On a high level the Hosting Suite enables the following:
+The Lombiq Hosting Suite is a set of modules that deal with various aspect of hosting Orchard applications in efficient, maintainable ways. It drives DotNest too but you can use it to improve your own application: to benefit from the features of the Hosting Suite you can incorporate it into your application without moving your sites to DotNest. On a high level the Hosting Suite enables the following:
 
 - The webserver running Orchard can be fully  stateless: apart from the application itself and occasional cache files  nothing is stored on the web server (as opposed to Orchard storing data  in numerous files). This makes Orchard a lot easier to deploy, maintain  and scale.
 - Enhanced multi-server support: Orchard is fully  capable of running on multiple webservers, nodes won't go out of sync.  Furthermore it's simple to spin new nodes up with a standardized Orchard deployment package, enabling to throttle throughput in a flexible  manner.
