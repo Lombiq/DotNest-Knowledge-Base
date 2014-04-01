@@ -27,11 +27,13 @@ Detailed features, per modules of the Hosting Suite:
     - Has services for running batches of maintenance steps for tenants that can also be started from a web API endpoint. This can be used to change tenants in bulk (like enabling modules, changing settings, running upgrades).
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising  service for instant event propagation that can be used with shared file  systems.
-    - Makes the tenant management admin page only fetch what  it displays and adds paging for long lists of tenants. This removes any  limitation on the number of tenants that can be managed from the admin  UI.
+    - Makes the tenant management admin page only fetch what it displays and adds paging for long lists of tenants. This removes any  limitation on the number of tenants that can be managed from the admin UI.
+    - Adds UI for logging in as the superuser of a tenant for administrative purposes.
 - Lombiq.Hosting.MultiTenancy.Tenants: runs on the tenants of a hosting environment. Provides the following services:
     - Feature guard: prevents configured features from being turned on or off on  tenants, providing configurable constraints on what tenants can do.
     - Storage quota management: continuously updates media storage usage data and enforces a configured storage quota.
     - Runtime quota management: enforces a configured runtime quota, i.e. it will  shut down shells after a period of inactivity, conserving computing  resources (think app pool idle timeout for tenants) and dramatically  improving tenant density.
+    - Exposes a way to log in as the superuser of the tenant for administrative purposes.
     - Exposes various events and configuration points for extending functionality.
 - Lombiq.Hosting.MultiTenancy.Bridge: provides interoperability between Lombiq.Hosting and  Lombiq.Hosting.Tenants. Hosting and Hosting.Tenants are not coupled but  play together through the common interfaces defined in Bridge.
 - Lombiq.Hosting.Stateless: adds general features for making the Orchard webserver stateless.
