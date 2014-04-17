@@ -14,6 +14,7 @@
 - [Available modules and themes for DotNest sites](topics/available-modules-and-themes)
 - [Theming a DotNest site](topics/theming)
 - [Using a custom domain name](topics/custom-domains)
+- [Content features](content-features)
 - [Security](topics/security)
 - [Migrating your site to DotNest](topics/migrating-to-dotnest)
 - [Limitations](topics/limitations)
