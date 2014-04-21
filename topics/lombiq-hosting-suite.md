@@ -88,6 +88,13 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 
 Part of the Hosting Suite is a reverse proxy that sits in front of the web servers as an Azure Cloud Service. It is taking off work off the web servers by doing any preliminary routing and doing full output caching. Doing output caching on the reverse proxy frees up memory on the webservers and greatly improves performance.
 
+### Extensions
+
+Some other features extending the above ones in the Lombiq.Hosting.Extensions module:
+
+- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes.
+- HTTP module for restoring the original HTTP Host header if the application is behind a reverse proxy.
+
 
 ## Getting the Hosting Suite
 
