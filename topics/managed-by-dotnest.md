@@ -4,7 +4,7 @@
 
 Since DotNest is a multi-tenant environment there are certain aspects we manage for you in an optimized way. This means you don't have to care about a lot of maintenance!
 
-- Output caching: there is no need to do output caching from Orchard because a reverse proxy is sitting before the web servers, caching unauthenticated responses. Cache entries are kept for ten minutes.
+- Output caching: there is no need to do output caching from Orchard because a reverse proxy is sitting before the web servers, caching unauthenticated responses. Cache entries are kept for 20 minutes but for Orchard content pages entries are immediately evicted when content is published.
 - Warmup: DotNest sites don't need Warmup as they are always kept warm.
 - Orchard upgrades/updates: DotNest tenants always run on the latest stable Orchard version.
 - Data upgrades: you don't need to run data upgrades (i.e. the ones from the Upgrade module) as DotNest automatically runs those when needed.
