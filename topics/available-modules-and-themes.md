@@ -13,6 +13,6 @@ The following modules and themes are available on all DotNest sites.
 - [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)). 
 
 ## Themes
-- [Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) and a totally empty theme as a theming base for Bootstrap-bases styling ([learn more about theming](theming)).
+- [Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) and a totally empty theme as a theming base for customized Bootstrap-based styling ([learn more about theming](theming)).
 
 Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming).
