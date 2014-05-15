@@ -8,6 +8,7 @@ The following modules and themes are available on all DotNest sites.
 - Almost all built-in modules (see "[limitations](Limitations)").
 - [Combinator](https://combinator.codeplex.com/) for CSS/JS bundling and minifaction to speed up page loads.
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
+- [SEO](https://bitbucket.org/onestop/module_onestop_seo) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
 - [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
 - [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)). 
 
