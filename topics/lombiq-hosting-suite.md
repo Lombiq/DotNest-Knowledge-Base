@@ -86,7 +86,9 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 
 ### Reverse cache proxy
 
-Part of the Hosting Suite is a reverse proxy that sits in front of the web servers as an Azure Cloud Service. It is taking off work off the web servers by doing any preliminary routing and doing full output caching. Doing output caching on the reverse proxy frees up memory on the webservers and greatly improves performance.
+Part of the Hosting Suite is a reverse proxy that sits in front of the web servers as an Azure Cloud Service. It is taking off work off the web servers by doing any preliminary routing and doing full output caching and gzip compression. Doing output caching on the reverse proxy frees up memory on the webservers and greatly improves performance.
+
+Despite of output caching any content change on the Orchard sites is immediately visible to users, because cache entries are automatically evicted on the proxy server when content is published.
 
 ### Extensions
 
