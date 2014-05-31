@@ -14,6 +14,8 @@ There are basically two options to style your site on DotNest:
 
 If you are satisfied with what a theme that is available on DotNest ([see which themes are available](available-modules-and-themes)) you can use that as a base and extend it. Just enable the theme you want to build on ([Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) is a good base theme for example) and also enable the [Theme Override module](https://themeoverride.codeplex.com/). You can then modify the styling under Theme Override Settings in Themes freely (including CSS, JS and Placement).
 
+You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
+
 
 ## Writing a theme from scratch
 
@@ -29,6 +31,8 @@ You can use the [Theme Override module](https://themeoverride.codeplex.com/) to 
 First make the DotNest Empty theme the current theme first, since this theme includes no styling at all. Then enable the Theme Override module and edit the styling from under Theme Override Settings in Themes.
 
 You can upload graphics or other static files through Media Library and reference them with their URL from CSS/JS. For this you can follow some conventions for better maintainability like placing your theme-related files into the Theme (or Themes/MyTheme) folder in media.
+
+You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
 
 ### Developing a theme and deploying it to your site with Media Theme
 
@@ -48,6 +52,8 @@ The theme package should follow these conventions:
 For using stylesheets and scripts you can simply include the common stylesheet in Styles/site.css (you can still develop with multiple stylesheets for a better structure, just in the end bundle them to a single file e.g. by using the import statement of [LESS](http://lesscss.org/)), scripts in Scripts/site-head.js and Scripts/site-foot.js (for head and foot scripts, respectively; you can bundle multiple scripts with e.g. [TypeScript](http://www.typescriptlang.org/)'s reference statement).
 
 You can, however, include an arbitrary set of common stylesheets and scripts in an arbitrary order by adding a **single** .cshtml file to your theme: you can use this template (e.g. a Layout.cshtml file or a Resources.cshtml file for [Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/)) to include any stylesheet or script with Style/Script.Include/Require() (you can also chain AtHead() or AtFoot() to them for scripts). Be aware that this template will only be parsed but not executed: any other statement (or any other method chained onto the resource inclusion calls) will be omitted.
+
+You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). See [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with such templates.
 
 For a sample on how such a theme looks see the [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest.
 

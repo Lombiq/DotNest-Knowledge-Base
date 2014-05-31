@@ -7,6 +7,7 @@ The following modules and themes are available on all DotNest sites.
 ## Modules
 - Almost all built-in modules (see "[limitations](Limitations)").
 - [Combinator](https://combinator.codeplex.com/) for CSS/JS bundling and minifaction to speed up page loads.
+- [Orchard Liquid Markup](https://orchardliquid.codeplex.com/) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
 - [SEO](https://bitbucket.org/onestop/module_onestop_seo) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
 - [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
