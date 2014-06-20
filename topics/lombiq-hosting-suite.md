@@ -43,7 +43,7 @@ The below modules of the Hosting Suite greatly improve Orchard's multi-tenant ca
     - Has services for running batches of maintenance steps for tenants that can also be started from a web API endpoint. This can be used to change tenants in bulk (like enabling modules, changing settings, running upgrades).
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising service for instant event propagation that can be used with shared file systems.
-    - Makes the tenant management admin page only fetch what it displays and adds paging for long lists of tenants. This removes any limitation on the number of tenants that can be managed from the admin UI.
+    - Makes the tenant management admin page only fetch what it displays and adds paging for long lists of tenants. This removes any limitation on the number of tenants that can be managed from the admin UI. Tenant management UI also got some further improvements, e.g. the ability to jump to a tenant by using its name, the ability to edit all shell settings (not just the default ones) and the ability to remove tenants from the UI.
     - Adds UI for logging in as the superuser of a tenant for administrative purposes.
 - Lombiq.Hosting.MultiTenancy.Tenants: runs on the tenants of a hosting environment. Provides the following services:
     - Feature guard: prevents configured features from being turned on or off on tenants, providing configurable constraints on what tenants can do.
