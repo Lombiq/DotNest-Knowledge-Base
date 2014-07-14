@@ -45,6 +45,7 @@ You can set up an URL to a zip file to be deployed as the theme. You can use thi
 The zip package that should be deployed should contain the full folder hierarchy of the theme. The hierarchy can start in the root of the package or also deeper. However packages MUST include a Theme.txt in the folder their theme folder structure starts from and there should be only one Theme.txt in the whole package. (E.g. this is a valid theme structure in MyTheme.zip: 201403/Theme.txt, 201403/Styles/site.css...)
 
 The theme package should follow these conventions:
+
 - Place the favicon into Images/favicon.ico and it will be automatically picked up (optional).
 - If you use any, place stylesheets into the Styles and scripts into the Scripts folder (just as usual).
 - Placement.info should be on the same level as the Theme.txt file (optional).
