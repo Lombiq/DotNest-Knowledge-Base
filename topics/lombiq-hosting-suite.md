@@ -28,9 +28,7 @@ The low-level core of the Hosting Suite is Lombiq.Hosting.ShellManagement, conta
 - Exposes fine-grained events that can be used to subscribe to shell settings changes, even if those are invoked from another shell. Such events can be used to extend shell management in arbitrary ways.
 - Adds the ability to have a common database for all tenants where the connection string is stored only once, not per tenant as usual. This makes it possible to move the application to a different database (like between a staging and production environment) by changing only one connection string.
 - On demand shell activation: shells are only activated if a request arrives to their tenant. This dramatically reduces app start time and conserves computing resources.
-- Lombiq.Hosting: contains some generic services related to hosting Orchard.
-- An HTTP module for restoring the original host header for Orchard if the site runs behind a reverse proxy that changes the host header.
-- An event raising implementation for Lombiq.Hosting.DistributedEvents that uses a file system watcher on shared files to notify server nodes of an event (usable e.g. on Azure Web Sites or with a shared storage folder).
+
 
 ### Multi-tenancy
 
@@ -39,7 +37,7 @@ The below modules of the Hosting Suite greatly improve Orchard's multi-tenant ca
 - Lombiq.Hosting.MultiTenancy: exposes hosting services, both as service classes and web services, for managing a multi tenant Orchard environment.
     - Tenant management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up tenants.
     - Adds the ability to set an isolated database environment for tenants by putting tenants' tables under a different SQL Server schema, accessed through an automatically generated user.
-    - Exposes services for managing tenants that run Lombiq.Hosting.Tenants.
+    - Exposes services for managing tenants that run Lombiq.Hosting.MultiTenancy.Tenants (see below).
     - Has services for running batches of maintenance steps for tenants that can also be started from a web API endpoint. This can be used to change tenants in bulk (like enabling modules, changing settings, running upgrades).
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising service for instant event propagation that can be used with shared file systems.
@@ -75,7 +73,7 @@ The following modules enhance Orchard when run on Azure.
 By bridging an important gap that prevents Orchard being run on a multi-server (multi-node/Web Farm) setup the [Lombiq.Hosting.DistributedEvents](https://orcharddistributedevents.codeplex.com/) module adds the ability to broadcast events between server nodes.
 
 - Generic extensible services for event broadcasting.
-- Implementations for broadcasting shell events and signals. Thus server nodes are thus always in sync, even if data is stored in the otherwise instance-local CacheManager. This means changes in e.g. content type definitions, feature states or roles will propagate to other server nodes.
+- Implementations for broadcasting shell events and signals. Thus server nodes are always in sync, even if data is stored in the otherwise instance-local CacheManager. This means changes in e.g. content type definitions, feature states or roles will propagate to other server nodes.
 
 ### Application maintenance
 
@@ -94,7 +92,7 @@ Despite of output caching any content change on the Orchard sites is immediately
 
 Some other features extending the above ones in the Lombiq.Hosting.Extensions module:
 
-- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes.
+- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure Web Sites or with a shared storage folder).
 - HTTP module for restoring the original HTTP Host header if the application is behind a reverse proxy.
 
 
