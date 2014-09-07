@@ -82,6 +82,15 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 - [Lombiq.Hosting.Readonly](http://orchardreadonly.codeplex.com/): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe deployment scenarios where before updating the application its database is backed up, as Readonly prevents data loss in such a transitional state.
 - [Lombiq.Hosting.RecipeRemoteExecutor](http://reciperemoteexecutor.codeplex.com/): allows to execute recipes (for a single tenant or for multiple tenants in a multi-tenant setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
 
+### No down-time deployment
+
+All our websites, including DotNest is deployed and maintained using a technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure Web Sites (its real power can be harnessed with the staged publishing feature) and Azure SQL. The most important features are:
+
+- Easy usage and customizability: you can easily manage any number of Azure Web Sites across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
+- Database backup from Azure SQL.
+- Ability to replace the staging database with the production one, so you can test your application in the staging environment with up-to-date data.
+- Swapping the staging environment out to production, which includes updating the App Settings and Connection Strings in both environments.
+
 ### Reverse cache proxy
 
 Part of the Hosting Suite is a reverse proxy that sits in front of the web servers as an Azure Cloud Service. It is taking off work off the web servers by doing any preliminary routing and doing full output caching and gzip compression. Doing output caching on the reverse proxy frees up memory on the webservers and greatly improves performance.
