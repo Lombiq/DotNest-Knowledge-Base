@@ -28,7 +28,7 @@ Again you have two options:
 
 You can use the [Theme Override module](https://themeoverride.codeplex.com/) to edit the site's CSS, JS and Placement from the admin UI.
 
-First make the DotNest Empty theme the current theme first, since this theme includes no styling at all. Then enable the Theme Override module and edit the styling from under Theme Override Settings in Themes.
+First make the DotNest Empty theme the current theme, since this theme includes no styling at all. Then enable the Theme Override module and edit the styling from under Theme Override Settings in Themes.
 
 You can upload graphics or other static files through Media Library and reference them with their URL from CSS/JS. For this you can follow some conventions for better maintainability like placing your theme-related files into the Theme (or Themes/MyTheme) folder in media.
 
