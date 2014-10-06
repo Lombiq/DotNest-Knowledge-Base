@@ -9,7 +9,7 @@ The following modules and themes are available on all DotNest sites.
 - [Combinator](https://combinator.codeplex.com/) for CSS/JS bundling and minifaction to speed up page loads.
 - [Orchard Liquid Markup](https://orchardliquid.codeplex.com/) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
-- [SEO](https://bitbucket.org/onestop/module_onestop_seo) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
+- [SEO](https://bitbucket.org/onestop/module_onestop_seo) by [Onestop](http://onestop.com/) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
 - [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
 - [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)). 
 
@@ -20,7 +20,7 @@ Themes by [BindTuning](http://bindtuning.com) - Where themes come to life:
 - [Terra](https://gallery.orchardproject.net/List/Themes/Orchard.Theme.Terra)
 - [TheBootstrapTheme](https://gallery.orchardproject.net/List/Themes/Orchard.Theme.TheBootstrapTheme)
 
-Themes by Philip Senechal:
+Themes by [Philip Senechal](http://philipsenechal.com/):
 
 - [FlatJack](http://philipsenechal.com/flatjack)
 - [ReTouch](http://philipsenechal.com/retouch)
