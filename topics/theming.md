@@ -40,7 +40,7 @@ DotNest sites include the Media Theme theme and the Media Theme Deployment modul
 
 You can just use the Media Theme theme and store your theme files (stylesheets, scripts, Placement.info) under the MediaTheme folder in Media Library but it's better to use the theme together with the Media Theme Deployment module so you can take advantage of the automatic theme package deployment, outlined below.
 
-You can set up an URL to a zip file to be deployed as the theme. You can use this to deploy from your source control or from storage providers like Dropbox. For Bitbucket the theme package URL can be the URL of the automatically generated zip file for an arbitrary branch of the repository. Also you can use the hook URL (displayed on the admin UI of MediaTheme) to invoke a deploy when you push to your repository.
+You can set up a URL to a zip file to be deployed as the theme. You can use this to deploy from your source control or from storage providers like Dropbox. For Bitbucket the theme package URL can be the URL of the automatically generated zip file for an arbitrary branch of the repository. Also you can use the hook URL (displayed on the admin UI of MediaTheme) to invoke a deploy when you push to your repository.
 
 The zip package that should be deployed should contain the full folder hierarchy of the theme. The hierarchy can start in the root of the package or also deeper. However packages MUST include a Theme.txt in the folder their theme folder structure starts from and there should be only one Theme.txt in the whole package. (E.g. this is a valid theme structure in MyTheme.zip: 201403/Theme.txt, 201403/Styles/site.css...)
 
