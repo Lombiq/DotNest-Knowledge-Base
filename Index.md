@@ -4,6 +4,8 @@
 
 ## Documentation topics
 
+You can read about the various aspects of DotNest and using it as well about developing on it in the following topics. If you prefer to watch videos instead head over to [our playlist](https://www.youtube.com/playlist?list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3) containing tutorials by [Abhishek Luv](http://orcharddojo.net/orchard-training/trainers/abhishek-luv).
+
 - [What is DotNest?](topics/about-dotnest)
 - [Who operates DotNest?](topics/about-lombiq)
 - [Getting started with Orchard](topics/getting-started-with-orchard)
