@@ -12,9 +12,15 @@ There are basically two options to style your site on DotNest:
 
 ## Extending a theme available on DotNest
 
-If you are satisfied with what a theme that is available on DotNest ([see which themes are available](available-modules-and-themes)) you can use that as a base and extend it. Just enable the theme you want to build on ([Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) is a good base theme for example) and also enable the [Theme Override module](https://themeoverride.codeplex.com/). You can then modify the styling under Theme Override Settings in Themes freely (including CSS, JS and Placement). You can watch our [introductory tutorial](https://www.youtube.com/watch?v=edrIvSMa9Aw&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=3) and [an in-depth, step-by-by guide](http://www.youtube.com/watch?v=dRqUSlzuljk&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=4) about using Theme Override too!
+If you are satisfied with what a theme that is available on DotNest ([see which themes are available](available-modules-and-themes)) you can use that as a base and extend it. Just enable the theme you want to build on ([Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) is a good base theme for example) and also enable the [Theme Override module](https://themeoverride.codeplex.com/). You can then modify the styling under Theme Override Settings in Themes freely (including CSS, JS and Placement).
 
 You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
+
+If you'd like to know more about theming on DotNest, you can watch our tutorial videos with step-by-step instructions!
+
+- [Introduction to DotNest theming](https://www.youtube.com/watch?v=edrIvSMa9Aw&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=3)
+- [Overriding the current theme with Theme Override](http://www.youtube.com/watch?v=dRqUSlzuljk&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=4)
+- [Deploying your own theme using Media Theme](https://www.youtube.com/watch?v=lKPzUF4L_M4&index=5&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3)
 
 
 ## Writing a theme from scratch
