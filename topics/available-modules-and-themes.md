@@ -1,4 +1,4 @@
-# Module and theme available on DotNest
+# Modules and themes available on DotNest
 
 
 The following modules and themes are available on all DotNest sites. You can watch our [tutorial video](https://www.youtube.com/watch?v=kyzl5raf5x0&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=2) about DotNest features too!
