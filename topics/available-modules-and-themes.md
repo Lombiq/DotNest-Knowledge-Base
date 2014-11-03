@@ -1,4 +1,4 @@
-# Modules and themes available on DotNest
+# External features on DotNest: modules, themes and language packages
 
 
 The following modules and themes are available on all DotNest sites. You can watch our [tutorial video](https://www.youtube.com/watch?v=kyzl5raf5x0&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=2) about DotNest features too!
@@ -31,3 +31,13 @@ Other themes:
 - A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming)).
 
 Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming).
+
+## Language packages
+The following language packages are also available on all DotNest sites for every built-in theme and module of Orchard:
+
+- Chinese Simplified (zh-CN, 95%)
+- French (fr-FR, 100%)
+- Hungarian (hu-HU, 100%)
+- Italian (it-IT, 100%)
+- Russian (ru-RU, 80%)
+- Spanish (es-ES, 100%)
