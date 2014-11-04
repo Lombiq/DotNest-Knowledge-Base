@@ -14,6 +14,7 @@ You can read about the various aspects of DotNest and using it as well about dev
 - [The Lombiq Hosting Suite](topics/lombiq-hosting-suite)
 - [Automating tasks on DotNest](topics/automating-tasks)
 - [Available modules and themes for DotNest sites](topics/available-modules-and-themes)
+- [Available language packages for DotNest sites](topics/language-packages)
 - [Theming a DotNest site](topics/theming)
 - [Using a custom domain name](topics/custom-domains)
 - [Content features](topics/content-features)
