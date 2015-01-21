@@ -1,36 +1,14 @@
-# Theming a DotNest site
+# Writing a theme from scratch
 
 
-
-Although you can't install custom themes on DotNest (see "[Limitations](limitations)") you still have a lot of control over theming. You can even develop usual Orchard themes in Visual Studio and get them automatically deployed from source control!
-
-There are basically two options to style your site on DotNest:
-
-- Extending a theme available on DotNest
-- Writing a theme from scratch
-
-
-## Extending a theme available on DotNest
-
-If you are satisfied with what a theme that is available on DotNest ([see which themes are available](available-modules-and-themes)) you can use that as a base and extend it. Just enable the theme you want to build on ([Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) is a good base theme for example) and also enable the [Theme Override module](https://themeoverride.codeplex.com/). You can then modify the styling under Theme Override Settings in Themes freely (including CSS, JS and Placement).
-
-You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
-
-If you'd like to know more about theming on DotNest, you can watch our tutorial videos with step-by-step instructions!
-
-- [Introduction to DotNest theming](https://www.youtube.com/watch?v=edrIvSMa9Aw&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=3)
-- [Overriding the current theme with Theme Override](http://www.youtube.com/watch?v=dRqUSlzuljk&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=4)
-- [Deploying your own theme using Media Theme](https://www.youtube.com/watch?v=lKPzUF4L_M4&index=5&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3)
-
-
-## Writing a theme from scratch
 
 Again you have two options:
 
 - Implementing a theme by saving the CSS, JS and Placement from the admin UI with the Theme Override module
 - Developing an Orchard theme as usual in you favorite IDE (preferably Visual Studio) and optionally deploying it from source control automatically. **If you're a hardcore developer, you may want to use this approach!**
 
-### Building a theme from the admin UI
+
+## Building a theme from the admin UI
 
 You can use the [Theme Override module](https://themeoverride.codeplex.com/) to edit the site's CSS, JS and Placement from the admin UI.
 
@@ -40,7 +18,8 @@ You can upload graphics or other static files through Media Library and referenc
 
 You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
 
-### Developing a theme and deploying it to your site with Media Theme
+
+## Developing a theme and deploying it to your site with Media Theme
 
 DotNest sites include the Media Theme theme and the Media Theme Deployment module: the theme enables you to extract a theme to the MediaTheme folder in Media (with regular Placement.info, Scripts and Styles folder) and use those. Just set the MediaTheme as the current theme; if you want to have automatic deployment for such theme packages then also enable the Media Theme Deployment module and configure it from Media Theme Deployment Configuration under Themes.
 
