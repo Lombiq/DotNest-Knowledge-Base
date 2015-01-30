@@ -11,7 +11,7 @@ You can read about the various aspects of DotNest and using it as well about dev
 - [Getting started with Orchard](topics/getting-started-with-orchard)
 - [How does DotNest work?](topics/under-the-hood)
 - [What is automatically managed by DotNest for your tenant?](topics/managed-by-dotnest)
-- [The Lombiq Hosting Suite](topics/lombiq-hosting-suite)
+- [Build your own DotNest: the Lombiq Hosting Suite, the technology behind DotNest](topics/lombiq-hosting-suite)
 - [Automating tasks on DotNest](topics/automating-tasks)
 - [Available modules and themes for DotNest sites](topics/available-modules-and-themes)
 - [Available language packages for DotNest sites](topics/language-packages)
