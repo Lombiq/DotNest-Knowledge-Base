@@ -4,7 +4,7 @@
 
 So how does DotNest work?
 
-DotNest is a multi-site [Orchard](http://orchardproject.net) service. This means that there is a single Orchard application that we maintain and upgrade while all of the websites of DotNest run on it.
+DotNest is a multi-tenant [Orchard](http://orchardproject.net) service. This means that there is a single Orchard application that we maintain and upgrade while all of the websites of DotNest run on it.
 
 Orchard's multi-tenancy is powerful but in its basic form it's not enough to run a service like DotNest. We enhanced the built-in multi-tenancy capability with a lot of important features to power DotNest, for example:
 

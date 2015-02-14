@@ -10,7 +10,7 @@ The Lombiq Hosting Suite is a set of Orchard modules, an Azure Cloud Service imp
 - Enhanced multi-server support: Orchard is fully capable of running on multiple webservers, nodes won't go out of sync. Furthermore it's simple to spin new nodes up with a standardized Orchard deployment package, enabling to throttle throughput in a flexible manner.
 - Enhanced Azure support: Azure-specific implementations make Orchard run better on Azure. This includes e.g. implementations that shift local file system storage to Blob storage.
 - Due to the above deployments and other maintenance tasks can be run [without downtime](http://dotnest.com/blog/99-99-uptime-in-dotnest-s-first-month).
-- Enhanced multi-tenancy: as the engine behind DotNest, the Hosting Suite adds services to efficiently host hundreds of sites from the same Orchard application while giving flexible ways of managing them, even through a web API. Site shell settings are stored in the database instead of config files and sites are started on demand, on their first hit, instead of being started on app start. These features improve maintainability and dramatically reduce startup time while increasing achievable site density.
+- Enhanced multi-tenancy: as the engine behind DotNest, the Hosting Suite adds services to efficiently host hundreds of tenants from the same Orchard application while giving flexible ways of managing them, even through a web API. Tenant shell settings are stored in the database instead of config files and tenants are started on demand, on their first hit, instead of being started on app start. These features improve maintainability and dramatically reduce startup time while increasing achievable site density.
 - Improved performance: among other performance improvements the Hosting Suite also features a reverse proxy component that offers offloaded Orchard-optimized output caching.
 - Designed to be extensible, the Suite exposes many events and other extension points for developers to use. Features, although enhancing each other, can be used and turned on or off independently.
 
@@ -32,7 +32,7 @@ The low-level core of the Hosting Suite is Lombiq.Hosting.ShellManagement, conta
 
 ### Multi-tenancy
 
-The below modules of the Hosting Suite greatly improve Orchard's multi-site capabilities.
+The below modules of the Hosting Suite greatly improve Orchard's multi-tenant capabilities.
 
 - Lombiq.Hosting.MultiTenancy: exposes hosting services, both as service classes and web services, for managing a multi site Orchard environment.
     - Site management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up sites.

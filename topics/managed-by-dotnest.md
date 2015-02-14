@@ -2,7 +2,7 @@
 
 
 
-Since DotNest is a multi-site environment there are certain aspects we manage for you in an optimized way. This means you don't have to care about a lot of maintenance!
+Since DotNest is a multi-tenant environment there are certain aspects we manage for you in an optimized way. This means you don't have to care about a lot of maintenance!
 
 - Output caching: there is no need to do output caching from Orchard because a reverse proxy is sitting before the web servers, caching unauthenticated responses. Cache entries are kept for 20 minutes but for Orchard content pages entries are immediately evicted when content is published.
 - Warmup: DotNest sites don't need Warmup as they are always kept warm.
