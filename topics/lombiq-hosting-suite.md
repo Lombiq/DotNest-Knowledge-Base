@@ -26,28 +26,28 @@ The low-level core of the Hosting Suite is Lombiq.Hosting.ShellManagement, conta
 
 - An extended shell settings manager that stores shell settings in the database. With this Orchard gets rid of Settings.txt files stored in App_Data, thus removing the need to maintain and back up these files.
 - Exposes fine-grained events that can be used to subscribe to shell settings changes, even if those are invoked from another shell. Such events can be used to extend shell management in arbitrary ways.
-- Adds the ability to have a common database for all sites where the connection string is stored only once, not per site as usual. This makes it possible to move the application to a different database (like between a staging and production environment) by changing only one connection string.
-- On demand shell activation: shells are only activated if a request arrives to their site. This dramatically reduces app start time and conserves computing resources.
+- Adds the ability to have a common database for all tenants where the connection string is stored only once, not per tenant as usual. This makes it possible to move the application to a different database (like between a staging and production environment) by changing only one connection string.
+- On demand shell activation: shells are only activated if a request arrives to their tenant. This dramatically reduces app start time and conserves computing resources.
 
 
 ### Multi-tenancy
 
 The below modules of the Hosting Suite greatly improve Orchard's multi-tenant capabilities.
 
-- Lombiq.Hosting.MultiTenancy: exposes hosting services, both as service classes and web services, for managing a multi site Orchard environment.
-    - Site management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up sites.
-    - Adds the ability to set an isolated database environment for sites by putting sites' tables under a different SQL Server schema, accessed through an automatically generated user.
-    - Exposes services for managing sites that run Lombiq.Hosting.MultiTenancy.Tenants (see below).
-    - Has services for running batches of maintenance steps for sites that can also be started from a web API endpoint. This can be used to change sites in bulk (like enabling modules, changing settings, running upgrades).
+- Lombiq.Hosting.MultiTenancy: exposes hosting services, both as service classes and web services, for managing a multi tenant Orchard environment.
+    - Tenant management services and a RESTful (authenticated) web API for fetching, creating, updating, removing and setting up tenants.
+    - Adds the ability to set an isolated database environment for tenants by putting tenants' tables under a different SQL Server schema, accessed through an automatically generated user.
+    - Exposes services for managing tenants that run Lombiq.Hosting.MultiTenancy.Tenants (see below).
+    - Has services for running batches of maintenance steps for tenants that can also be started from a web API endpoint. This can be used to change tenants in bulk (like enabling modules, changing settings, running upgrades).
     - Exposes various events and configuration points for extending functionality.
     - Extends Lombiq.Hosting.DistributedEvents with a file watching event raising service for instant event propagation that can be used with shared file systems.
-    - Makes the site management admin page only fetch what it displays and adds paging for long lists of sites. This removes any limitation on the number of sites that can be managed from the admin UI. Site management UI also got some further improvements, e.g. the ability to jump to a site by using its name, the ability to edit all shell settings (not just the default ones) and the ability to remove sites from the UI.
-    - Adds UI for logging in as the superuser of a site for administrative purposes.
-- Lombiq.Hosting.MultiTenancy.Tenants: runs on the sites of a hosting environment. Provides the following services:
-    - Feature guard: prevents configured features from being turned on or off on sites, providing configurable constraints on what sites can do.
+    - Makes the tenant management admin page only fetch what it displays and adds paging for long lists of tenants. This removes any limitation on the number of tenants that can be managed from the admin UI. Tenant management UI also got some further improvements, e.g. the ability to jump to a tenant by using its name, the ability to edit all shell settings (not just the default ones) and the ability to remove tenants from the UI.
+    - Adds UI for logging in as the superuser of a tenant for administrative purposes.
+- Lombiq.Hosting.MultiTenancy.Tenants: runs on the tenants of a hosting environment. Provides the following services:
+    - Feature guard: prevents configured features from being turned on or off on tenants, providing configurable constraints on what tenants can do.
     - Storage quota management: continuously updates media storage usage data and enforces a configured storage quota.
-    - Runtime quota management: enforces a configured runtime quota, i.e. it will shut down shells after a period of inactivity, conserving computing resources (think app pool idle timeout for sites) and dramatically improving site density.
-    - Exposes a way to log in as the superuser of the site for administrative purposes.
+    - Runtime quota management: enforces a configured runtime quota, i.e. it will shut down shells after a period of inactivity, conserving computing resources (think app pool idle timeout for tenants) and dramatically improving tenant density.
+    - Exposes a way to log in as the superuser of the tenant for administrative purposes.
     - Exposes various events and configuration points for extending functionality.
 - Lombiq.Hosting.MultiTenancy.Bridge: provides interoperability between Lombiq.Hosting and Lombiq.Hosting.Tenants. Hosting and Hosting.Tenants are not coupled but play together through the common interfaces defined in Bridge.
 
@@ -63,8 +63,8 @@ The Lombiq.Hosting.Stateless module adds general features for making the Orchard
 The following modules enhance Orchard when run on Azure.
 
 - Lombiq.Hosting.Azure: contains extensions for the Hosting Suite for enhancing it on Azure.
-    - The media folder of the site is removed from Blob Storage when a site is removed.
-    - Lucene search indices are removed from blob Storage when a site is removed.
+    - The media folder of the tenant is removed from Blob Storage when a tenant is removed.
+    - Lucene search indices are removed from blob Storage when a tenant is removed.
 - [Lombiq.Hosting.Azure.Indexing](https://orchardazureindexing.codeplex.com/): extends Orchard's search indexing services to optimize them for Azure.
     - Enables Lucene indexing to use Blob storage (with local cache) with [AzureDirectory](https://github.com/richorama/AzureDirectory).
 
@@ -80,7 +80,7 @@ By bridging an important gap that prevents Orchard being run on a multi-server (
 The below modules improve how maintenance tasks can be executed on Orchard applications.
 
 - [Lombiq.Hosting.Readonly](http://orchardreadonly.codeplex.com/): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe deployment scenarios where before updating the application its database is backed up, as Readonly prevents data loss in such a transitional state.
-- [Lombiq.Hosting.RecipeRemoteExecutor](http://reciperemoteexecutor.codeplex.com/): allows to execute recipes (for a single site or for multiple sites in a multi-site setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
+- [Lombiq.Hosting.RecipeRemoteExecutor](http://reciperemoteexecutor.codeplex.com/): allows to execute recipes (for a single tenant or for multiple tenants in a multi-tenant setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
 
 ### No down-time deployment
 
