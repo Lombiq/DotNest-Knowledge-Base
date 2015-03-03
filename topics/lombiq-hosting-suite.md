@@ -67,6 +67,7 @@ The following modules enhance Orchard when run on Azure.
     - Lucene search indices are removed from blob Storage when a tenant is removed.
 - [Lombiq.Hosting.Azure.Indexing](https://orchardazureindexing.codeplex.com/): extends Orchard's search indexing services to optimize them for Azure.
     - Enables Lucene indexing to use Blob storage (with local cache) with [AzureDirectory](https://github.com/richorama/AzureDirectory).
+- [Lombiq.Hosting.Azure.ApplicationInsights](https://orchardazureappinsights.codeplex.com): easy integration of [Azure Application Insights](http://azure.microsoft.com/en-us/documentation/articles/app-insights-start-monitoring-app-health-usage/), the Azure application telemetry service.
 
 ### Multi-server support
 
@@ -107,6 +108,6 @@ Some other features extending the above ones in the Lombiq.Hosting.Extensions mo
 
 ## Getting the Hosting Suite
 
-Distributed Events, Readonly, Recipe Remote Executor and Azure Indexing are open source modules and free to use. Lombiq offers commercial-grade support for integrating and extending these modules. The other parts of the Hosting Suite are proprietary and Lombiq offers flexible licenses for them.
+The linked modules are open source modules and free to use. Lombiq offers commercial-grade support for integrating and extending these modules. The other parts of the Hosting Suite are proprietary and Lombiq offers flexible licenses for them.
 
 **How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you!**

@@ -1,11 +1,14 @@
 # Modules and themes available on DotNest
 
 
+
 The following modules and themes are available on all DotNest sites. You can watch our [tutorial video](https://www.youtube.com/watch?v=kyzl5raf5x0&list=PLuskKJW0FhJcXpbKqATKllLj9RsH-eDg3&index=2) about DotNest features too!
 
 
 ## Modules
+
 - Almost all built-in modules (see "[limitations](Limitations)").
+- [Azure Application Insights](https://orchardazureappinsights.codeplex.com/) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
 - [Combinator](https://combinator.codeplex.com/) for CSS/JS bundling and minifaction to speed up page loads.
 - [Orchard Liquid Markup](https://orchardliquid.codeplex.com/) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
@@ -13,7 +16,9 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
 - [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)). 
 
+
 ## Themes
+
 Themes by [BindTuning](http://bindtuning.com) - Where themes come to life:
 
 - [Metro](https://gallery.orchardproject.net/List/Themes/Orchard.Theme.Metro)
