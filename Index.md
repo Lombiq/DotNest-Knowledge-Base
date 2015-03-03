@@ -18,7 +18,7 @@ You can read about the various aspects of DotNest and using it as well about dev
 - [Theming a DotNest site](topics/theming/)
 - [Using a custom domain name](topics/custom-domains)
 - [Content features](topics/content-features)
-- [Collecting usage telemetry of your sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights)
+- [Collecting usage telemetry of your sites with Azure Application Insights](topics/collecting-usage-telemetry-with-azure-application-insights)
 - [Security](topics/security)
 - [Migrating your site to DotNest](topics/migrating-to-dotnest)
 - [Limitations](topics/limitations)
