@@ -43,4 +43,4 @@ You can even override shape templates by adding templates to your theme written 
 
 For a sample on how such a theme looks see the [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest. Another example theme by Abhishek Luv can be accessed under [its GitHub repository](https://github.com/abhishekluv/mydotnesttheme) (the theme can also be deployed from GitHub).
 
-When developing the theme locally you can import the [test content export file](http://orcharddojo.net/orchard-resources/Library/Utilities/TestContent/)s from the Dojo Library to instantly get a site full of sample content.
+When developing the theme locally you can import the [test content export files](http://orcharddojo.net/orchard-resources/Library/Utilities/TestContent/) from the Dojo Library to instantly get a site full of sample content.
