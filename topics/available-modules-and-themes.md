@@ -14,7 +14,9 @@ The following modules and themes are available on all DotNest sites. You can wat
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
 - [SEO](https://bitbucket.org/onestop/module_onestop_seo) by [Onestop](http://onestop.com/) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
 - [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
-- [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)). 
+- [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)).
+- [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822), creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
+- [Watcher](http://orchardwatcher.codeplex.com), that allows you to watch content items and setup [workflows](http://orchardwatcher.codeplex.com/documentation) to recieve notifications when content is created/updated.
 
 
 ## Themes
