@@ -41,6 +41,11 @@ You can, however, include an arbitrary set of common stylesheets and scripts in 
 
 You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). You can even include static resources from such templates in arbitrary ways. See [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) for more information on what you can do with such templates.
 
-For a sample on how such a theme looks see the [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest. Another example theme by Abhishek Luv can be accessed under [its GitHub repository](https://github.com/abhishekluv/mydotnesttheme) (the theme can also be deployed from GitHub).
+For samples on how such a theme looks see:
+
+- [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest.
+- Another example theme by Abhishek Luv can be accessed under [its GitHub repository](https://github.com/abhishekluv/mydotnesttheme) (the theme can also be deployed from GitHub).
+- [Elemental Gankery Theme](https://bitbucket.org/benedekfarkas/elemental-gankery-media-theme/overview) for [http://elementalgankery.dotnest.com/](http://elementalgankery.dotnest.com/).
+- [Spring Harvest Challenge Theme](https://bitbucket.org/Lombiq/orchard-spring-harvest-challenge-theme) for [http://harvestchallenge.net/](http://harvestchallenge.net/).
 
 When developing the theme locally you can import the [test content export files](http://orcharddojo.net/orchard-resources/Library/Utilities/TestContent/) from the Dojo Library to instantly get a site full of sample content.
