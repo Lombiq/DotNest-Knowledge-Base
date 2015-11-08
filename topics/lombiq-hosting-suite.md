@@ -102,7 +102,7 @@ Despite of output caching any content change on the Orchard sites is immediately
 
 Some other features extending the above ones in the Lombiq.Hosting.Extensions module:
 
-- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure Web Sites or with a shared storage folder).
+- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure Web Apps or with a shared storage folder).
 - HTTP module for restoring the original HTTP Host header if the application is behind a reverse proxy.
 
 
