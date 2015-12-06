@@ -8,18 +8,19 @@ The following modules and themes are available on all DotNest sites. You can wat
 ## Modules
 
 - Almost all built-in Orchard modules (see "[limitations](Limitations)").
-- [Azure Application Insights](https://orchardazureappinsights.codeplex.com/) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
-- [Combinator](https://combinator.codeplex.com/) for CSS/JS bundling and minifaction to speed up page loads.
+- [Azure Application Insights](https://github.com/Lombiq/Orchard-Azure-Application-Insights) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
+- [Combinator](https://github.com/Lombiq/Combinator) for CSS/JS bundling and minifaction to speed up page loads.
 - [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822), creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
-- [Helpful Extensions](https://helpfulextensions.codeplex.com/): adds, among others, some useful tokens and extends Projections with new filters.
+- [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions): adds, among others, some useful tokens and extends Projections with new filters.
+- [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries): contains a lot of developer-focused libraries used by other modules.
 - [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module): adds the ability to filter on content by its owner to Projector.
-- [Orchard Liquid Markup](https://orchardliquid.codeplex.com/) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
+- [Orchard Liquid Markup](https://github.com/Lombiq/Orchard-Liquid-Markup) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
 - [SEO](https://bitbucket.org/onestop/module_onestop_seo) by [Onestop](http://onestop.com/) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
-- [Simple Analytics](https://orchardsimpleanalytics.codeplex.com) for easily adding some analytics script to your site.
-- [Target: Blank](http://targetblank.codeplex.com/): after you enable it all the outbound links on your site will open in a new tab.
-- [Theme Override](https://themeoverride.codeplex.com/) so sites can be freely styled ([learn more about theming](theming)).
-- [Watcher](http://orchardwatcher.codeplex.com), that allows users to watch content items and setup [workflows](http://orchardwatcher.codeplex.com/documentation) to recieve notifications when content is created/updated.
+- [Simple Analytics](https://github.com/Lombiq/Orchard-Simple-Analytics) for easily adding some analytics script to your site.
+- [Target: Blank](https://github.com/Lombiq/Orchard-Target-Blank): after you enable it all the outbound links on your site will open in a new tab.
+- [Theme Override](https://github.com/Lombiq/Orchard-Theme-Override) so sites can be freely styled ([learn more about theming](theming)).
+- [Watcher](https://github.com/Lombiq/Orchard-Watcher), that allows users to watch content items and setup workflows to recieve notifications when content is created/updated.
 
 
 ## Themes
@@ -37,7 +38,7 @@ Themes by [Philip Senechal](http://philipsenechal.com/):
 
 Other themes:
 
-- [Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/) as a theming base for customized Bootstrap-based styling.
+- [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample) as a theming base for customized Bootstrap-based styling.
 - A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming)).
 
 Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming).
