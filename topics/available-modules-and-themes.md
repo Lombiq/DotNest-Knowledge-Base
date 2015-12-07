@@ -13,7 +13,9 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822), creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
 - [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions): adds, among others, some useful tokens and extends Projections with new filters.
 - [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries): contains a lot of developer-focused libraries used by other modules.
+- [Lombiq Fields](https://github.com/Lombiq/Lombiq-Fields): adds some useful content fields, including Media Library Upload Field so Media items can be uploaded attached to content items and the Money Field to store money amounts.
 - [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module): adds the ability to filter on content by its owner to Projector.
+- [Social Meta Tags](https://github.com/bhavinbdoshi/Om.Orchard.SocialMetaTags): adds meta tags for various social networks (Open Graph Tags for Facebook/Google/Pinterest/LinkedIn and Twitter Card Tags) and Google Authorship tags.
 - [Orchard Liquid Markup](https://github.com/Lombiq/Orchard-Liquid-Markup) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
 - [SEO](https://bitbucket.org/onestop/module_onestop_seo) by [Onestop](http://onestop.com/) for search engine optimization (actually the version [from this fork](https://bitbucket.org/Lombiq/onestop.seo-hg) is used)
@@ -33,8 +35,9 @@ Themes by [BindTuning](http://bindtuning.com) - Where themes come to life:
 
 Themes by [Philip Senechal](http://philipsenechal.com/):
 
-- [FlatJack](http://philipsenechal.com/flatjack)
-- [ReTouch](http://philipsenechal.com/retouch)
+- [Bootstrap](https://github.com/psenechal/PJS.Bootstrap)
+- FlatJack
+- ReTouch
 
 Other themes:
 
