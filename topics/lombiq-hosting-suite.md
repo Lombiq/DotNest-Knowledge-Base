@@ -65,13 +65,13 @@ The following modules enhance Orchard when run on Azure.
 - Lombiq.Hosting.Azure: contains extensions for the Hosting Suite for enhancing it on Azure.
     - The media folder of the tenant is removed from Blob Storage when a tenant is removed.
     - Lucene search indices are removed from blob Storage when a tenant is removed.
-- [Lombiq.Hosting.Azure.Indexing](https://orchardazureindexing.codeplex.com/): extends Orchard's search indexing services to optimize them for Azure.
+- [Lombiq.Hosting.Azure.Indexing](https://github.com/Lombiq/Orchard-Azure-Indexing): extends Orchard's search indexing services to optimize them for Azure.
     - Enables Lucene indexing to use Blob storage (with local cache) with [AzureDirectory](https://github.com/richorama/AzureDirectory).
-- [Lombiq.Hosting.Azure.ApplicationInsights](https://orchardazureappinsights.codeplex.com): easy integration of [Azure Application Insights](http://azure.microsoft.com/en-us/documentation/articles/app-insights-start-monitoring-app-health-usage/), the Azure application telemetry service.
+- [Lombiq.Hosting.Azure.ApplicationInsights](https://github.com/Lombiq/Orchard-Azure-Application-Insights): easy integration of [Azure Application Insights](http://azure.microsoft.com/en-us/documentation/articles/app-insights-start-monitoring-app-health-usage/), the Azure application telemetry service.
 
 ### Multi-server support
 
-By bridging an important gap that prevents Orchard being run on a multi-server (multi-node/Web Farm) setup the [Lombiq.Hosting.DistributedEvents](https://orcharddistributedevents.codeplex.com/) module adds the ability to broadcast events between server nodes.
+By bridging an important gap that prevents Orchard being run on a multi-server (multi-node/Web Farm) setup the [Lombiq.Hosting.DistributedEvents](https://github.com/Lombiq/Orchard-Distributed-Events) module adds the ability to broadcast events between server nodes.
 
 - Generic extensible services for event broadcasting.
 - Implementations for broadcasting shell events and signals. Thus server nodes are always in sync, even if data is stored in the otherwise instance-local CacheManager. This means changes in e.g. content type definitions, feature states or roles will propagate to other server nodes.
@@ -80,8 +80,8 @@ By bridging an important gap that prevents Orchard being run on a multi-server (
 
 The below modules improve how maintenance tasks can be executed on Orchard applications.
 
-- [Lombiq.Hosting.Readonly](http://orchardreadonly.codeplex.com/): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe deployment scenarios where before updating the application its database is backed up, as Readonly prevents data loss in such a transitional state.
-- [Lombiq.Hosting.RecipeRemoteExecutor](http://reciperemoteexecutor.codeplex.com/): allows to execute recipes (for a single tenant or for multiple tenants in a multi-tenant setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
+- [Lombiq.Hosting.Readonly](https://github.com/Lombiq/Orchard-Read-only): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe deployment scenarios where before updating the application its database is backed up, as Readonly prevents data loss in such a transitional state.
+- [Lombiq.Hosting.RecipeRemoteExecutor](https://github.com/Lombiq/Orchard-Recipe-Remote-Executor): allows to execute recipes (for a single tenant or for multiple tenants in a multi-tenant setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
 
 ### No down-time deployment
 

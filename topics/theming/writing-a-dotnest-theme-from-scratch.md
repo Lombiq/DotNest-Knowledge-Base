@@ -10,13 +10,13 @@ Again you have two options:
 
 ## Building a theme from the admin UI
 
-You can use the [Theme Override module](https://themeoverride.codeplex.com/) to edit the site's CSS, JS and Placement from the admin UI.
+You can use the [Theme Override module](https://github.com/Lombiq/Orchard-Theme-Override) to edit the site's CSS, JS and Placement from the admin UI.
 
 First make the DotNest Empty theme the current theme, since this theme includes no styling at all. Then enable the Theme Override module and edit the styling from under Theme Override Settings in Themes.
 
 You can upload graphics or other static files through Media Library and reference them with their URL from CSS/JS. For this you can follow some conventions for better maintainability like placing your theme-related files into the Theme (or Themes/MyTheme) folder in media.
 
-You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) on what you can do with it).
+You can even override shape templates by enabling the Liquid Markup Templates feature and writing templates in the [Liquid Markup language](http://liquidmarkup.org/) through the built-in Templates module (see [the documentation of the Orchard Liquid Markup module](https://github.com/Lombiq/Orchard-Liquid-Markup) on what you can do with it).
 
 
 ## Developing a theme and deploying it to your site with Media Theme
@@ -37,9 +37,9 @@ The theme package should follow these conventions:
 
 For using stylesheets and scripts you can simply include the common stylesheet in Styles/site.css (you can still develop with multiple stylesheets for a better structure, just in the end bundle them to a single file e.g. by using the import statement of [LESS](http://lesscss.org/)), scripts in Scripts/site-head.js and Scripts/site-foot.js (for head and foot scripts, respectively; you can bundle multiple scripts with e.g. [TypeScript](http://www.typescriptlang.org/)'s reference statement).
 
-You can, however, include an arbitrary set of common stylesheets and scripts in an arbitrary order by adding a **single** .cshtml file to your theme: you can use this template (e.g. a Layout.cshtml file or a Resources.cshtml file for [Pretty Good Bootstrap Base Theme](https://pgbootstrapbasetheme.codeplex.com/)) to include any stylesheet or script with Style/Script.Include/Require() (you can also chain AtHead() or AtFoot() to them for scripts). Be aware that this template will only be parsed but not executed: any other statement (or any other method chained onto the resource inclusion calls) will be omitted.
+You can, however, include an arbitrary set of common stylesheets and scripts in an arbitrary order by adding a **single** .cshtml file to your theme: you can use this template (e.g. a Layout.cshtml file or a Resources.cshtml file for [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme)) to include any stylesheet or script with Style/Script.Include/Require() (you can also chain AtHead() or AtFoot() to them for scripts). Be aware that this template will only be parsed but not executed: any other statement (or any other method chained onto the resource inclusion calls) will be omitted.
 
-You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). You can even include static resources from such templates in arbitrary ways. See [the documentation of the Orchard Liquid Markup module](https://orchardliquid.codeplex.com/documentation) for more information on what you can do with such templates.
+You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). You can even include static resources from such templates in arbitrary ways. See [the documentation of the Orchard Liquid Markup module](https://github.com/Lombiq/Orchard-Liquid-Markup) for more information on what you can do with such templates.
 
 For samples on how such a theme looks see:
 
