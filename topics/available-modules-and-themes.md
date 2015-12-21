@@ -24,6 +24,8 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Theme Override](https://github.com/Lombiq/Orchard-Theme-Override) so sites can be freely styled ([learn more about theming](theming)).
 - [Watcher](https://github.com/Lombiq/Orchard-Watcher), that allows users to watch content items and setup workflows to recieve notifications when content is created/updated.
 
+If you'd like another module (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
+
 
 ## Themes
 
@@ -39,9 +41,15 @@ Themes by [Philip Senechal](http://philipsenechal.com/):
 - FlatJack
 - ReTouch
 
+Themes by [Ryan Drew Burnett](http://rdb.me/):
+
+- [Bindery](https://github.com/ryandrewburnett/RDB.Bindery)
+
 Other themes:
 
 - [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample) as a theming base for customized Bootstrap-based styling.
 - A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming)).
 
 Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming).
+
+If you'd like another theme (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
