@@ -43,7 +43,7 @@ Themes by [Philip Senechal](http://philipsenechal.com/):
 
 Themes by [Ryan Drew Burnett](http://rdb.me/):
 
-- [Bindery](https://github.com/ryandrewburnett/RDB.Bindery)
+- [Bindery](https://github.com/ryandrewburnett/RDB.Bindery) (you can also check it out on its [demo DotNest site](http://binderydemo.dotnest.com/))
 
 Other themes:
 
