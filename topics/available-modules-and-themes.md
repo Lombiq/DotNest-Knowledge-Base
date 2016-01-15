@@ -48,8 +48,8 @@ Themes by [Ryan Drew Burnett](http://rdb.me/):
 Other themes:
 
 - [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample) as a theming base for customized Bootstrap-based styling.
-- A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming)).
+- A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming/)).
 
-Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming).
+Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming/).
 
 If you'd like another theme (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
