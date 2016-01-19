@@ -8,6 +8,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 ## Modules
 
 - Almost all built-in Orchard modules (see "[limitations](Limitations)").
+- [Avatars](https://github.com/Lombiq/Orchard-Avatars): a simple to use module that lets users upload avatars (profile pictures) to their user profiles, which can then be displayed under their contributions. E.g. blog posts' author profiles will be linked from posts, where their avatar will be also displayed.
 - [Azure Application Insights](https://github.com/Lombiq/Orchard-Azure-Application-Insights) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
 - [Combinator](https://github.com/Lombiq/Combinator) for CSS/JS bundling and minifaction to speed up page loads.
 - [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822), creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
@@ -15,6 +16,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries): contains a lot of developer-focused libraries used by other modules.
 - [Lombiq Fields](https://github.com/Lombiq/Lombiq-Fields): adds some useful content fields, including Media Library Upload Field so Media items can be uploaded attached to content items and the Money Field to store money amounts.
 - [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module): adds the ability to filter on content by its owner to Projector.
+- [Profile](http://orchardprofile.codeplex.com/): users can have profiles with this module. By adding fields to the User content type you can e.g. have bio fields in profiles.
 - [Social Meta Tags](https://github.com/bhavinbdoshi/Om.Orchard.SocialMetaTags): adds meta tags for various social networks (Open Graph Tags for Facebook/Google/Pinterest/LinkedIn and Twitter Card Tags) and Google Authorship tags.
 - [Orchard Liquid Markup](https://github.com/Lombiq/Orchard-Liquid-Markup) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment for automatically deploying a theme from source control (see  [theming](theming)).
