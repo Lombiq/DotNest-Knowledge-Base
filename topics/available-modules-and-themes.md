@@ -15,7 +15,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions): adds, among others, some useful tokens and extends Projections with new filters.
 - [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries): contains a lot of developer-focused libraries used by other modules.
 - [Lombiq Fields](https://github.com/Lombiq/Lombiq-Fields): adds some useful content fields, including Media Library Upload Field so Media items can be uploaded attached to content items and the Money Field to store money amounts.
-- [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module): adds the ability to filter on content by its owner to Projector.
+- [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module): adds the ability to filter on content by its owner to Projector as well as to display content items created by a user under their profile (works together with the below Profile module).
 - [Profile](http://orchardprofile.codeplex.com/): users can have profiles with this module. By adding fields to the User content type you can e.g. have bio fields in profiles.
 - [Social Meta Tags](https://github.com/bhavinbdoshi/Om.Orchard.SocialMetaTags): adds meta tags for various social networks (Open Graph Tags for Facebook/Google/Pinterest/LinkedIn and Twitter Card Tags) and Google Authorship tags.
 - [Orchard Liquid Markup](https://github.com/Lombiq/Orchard-Liquid-Markup) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
