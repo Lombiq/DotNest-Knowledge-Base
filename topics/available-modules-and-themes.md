@@ -26,7 +26,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Target: Blank](https://github.com/Lombiq/Orchard-Target-Blank) by [Lombiq](https://lombiq.com): after you enable it all the outbound links on your site will open in a new tab.
 - [Theme Override](https://github.com/Lombiq/Orchard-Theme-Override) by [Lombiq](https://lombiq.com) so sites can be freely styled ([learn more about theming](theming)).
 - [Vote Up/Down](https://github.com/Jetski5822/NGM.VoteUpDown) by [Nick Mayne](https://github.com/Jetski5822): users can vote content items up/down with arrows to show if whether they like it.
-- [Voting API](http://orchardvoting.codeplex.com/)) by [Sebastien Ros](http://sebastienros.com/): provides basic voting-related services that are used by the Favorite and Vote Up/Down modules.
+- [Voting API](http://orchardvoting.codeplex.com/) by [Sebastien Ros](http://sebastienros.com/): provides basic voting-related services that are used by the Favorite and Vote Up/Down modules.
 - [Watcher](https://github.com/Lombiq/Orchard-Watcher) by [Lombiq](https://lombiq.com), that allows users to watch content items and setup workflows to recieve notifications when content is created/updated.
 
 If you'd like another module (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
