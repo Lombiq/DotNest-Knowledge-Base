@@ -11,7 +11,8 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Avatars](https://github.com/Lombiq/Orchard-Avatars): a simple to use module that lets users upload avatars (profile pictures) to their user profiles, which can then be displayed under their contributions. E.g. blog posts' author profiles will be linked from posts, where their avatar will be also displayed.
 - [Azure Application Insights](https://github.com/Lombiq/Orchard-Azure-Application-Insights) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
 - [Combinator](https://github.com/Lombiq/Combinator) for CSS/JS bundling and minifaction to speed up page loads.
-- [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822), creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
+- [Favorite](https://github.com/Jetski5822/NGM.Favorite) by [Nick Mayne](https://github.com/Jetski5822): users can mark content items as their favorite.
+- [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822): creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
 - [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions): adds, among others, some useful tokens and extends Projections with new filters.
 - [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries): contains a lot of developer-focused libraries used by other modules.
 - [Lombiq Fields](https://github.com/Lombiq/Lombiq-Fields): adds some useful content fields, including Media Library Upload Field so Media items can be uploaded attached to content items and the Money Field to store money amounts.
@@ -24,6 +25,8 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Simple Analytics](https://github.com/Lombiq/Orchard-Simple-Analytics) for easily adding some analytics script to your site.
 - [Target: Blank](https://github.com/Lombiq/Orchard-Target-Blank): after you enable it all the outbound links on your site will open in a new tab.
 - [Theme Override](https://github.com/Lombiq/Orchard-Theme-Override) so sites can be freely styled ([learn more about theming](theming)).
+- [Vote Up/Down](https://github.com/Jetski5822/NGM.VoteUpDown) by [Nick Mayne](https://github.com/Jetski5822): users can vote content items up/down with arrows to show if whether they like it.
+- [Voting API](http://orchardvoting.codeplex.com/)) by [Sebastien Ros](http://sebastienros.com/): provides basic voting-related services that are used by the Favorite and Vote Up/Down modules.
 - [Watcher](https://github.com/Lombiq/Orchard-Watcher), that allows users to watch content items and setup workflows to recieve notifications when content is created/updated.
 
 If you'd like another module (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
