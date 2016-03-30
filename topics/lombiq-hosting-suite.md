@@ -85,9 +85,9 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 
 ### No down-time deployment
 
-All our websites, including DotNest is deployed and maintained using a technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure Web Sites (its real power can be harnessed with the staged publishing feature) and Azure SQL. The most important features are:
+All our websites, including DotNest is deployed and maintained using a technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure App Services (its real power can be harnessed with the staged publishing feature) and Azure SQL. The most important features are:
 
-- Easy usage and customizability: you can easily manage any number of Azure Web Sites across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
+- Easy usage and customizability: you can easily manage any number of Azure App Services across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
 - Database backup from Azure SQL.
 - Ability to replace the staging database with the production one, so you can test your application in the staging environment with up-to-date data.
 - Swapping the staging environment out to production, which includes updating the App Settings and Connection Strings in both environments.
@@ -102,7 +102,7 @@ Despite of output caching any content change on the Orchard sites is immediately
 
 Some other features extending the above ones in the Lombiq.Hosting.Extensions module:
 
-- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure Web Apps or with a shared storage folder).
+- Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure App Services or with a shared storage folder).
 - HTTP module for restoring the original HTTP Host header if the application is behind a reverse proxy.
 
 
