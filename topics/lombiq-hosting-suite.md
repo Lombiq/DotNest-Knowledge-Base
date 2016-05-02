@@ -15,6 +15,7 @@ The Lombiq Hosting Suite is a set of Orchard modules, an Azure Cloud Service imp
 - A continuous integration/deployment environment fully integrated with Orchard to support agile DevOps workflows. Among others it can be used to build and deploy the app, swap the staging environment out to production without users noticing it and to copy data over from the production environment to staging.
 - Designed to be extensible, the Suite exposes many events and other extension points for developers to use. Features, although enhancing each other, can be used and turned on or off independently.
 
+And you can retrofit any existing Orchard app with the Hosting Suite!
 
 **How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you!**
 
