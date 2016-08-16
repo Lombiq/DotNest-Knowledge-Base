@@ -12,7 +12,7 @@ The Lombiq Hosting Suite is a set of Orchard modules, an Azure Cloud Service imp
 - Due to the above deployments and other maintenance tasks can be run [without downtime](http://dotnest.com/blog/99-99-uptime-in-dotnest-s-first-month).
 - Enhanced multi-tenancy: as the engine behind DotNest, the Hosting Suite adds services to efficiently host hundreds of tenants from the same Orchard application while giving flexible ways of managing them, even through a web API. Tenant shell settings are stored in the database instead of config files and tenants are started on demand, on their first hit, instead of being started on app start. These features improve maintainability and dramatically reduce startup time while increasing achievable site density.
 - Improved performance: among other performance improvements the Hosting Suite also features a reverse proxy component that offers offloaded Orchard-optimized output caching.
-- A continuous integration/deployment environment fully integrated with Orchard to support agile DevOps workflows. Among others it can be used to build and deploy the app, swap the staging environment out to production without users noticing it and to copy data over from the production environment to staging.
+- A continuous integration/deployment environment fully integrated with Orchard to support agile DevOps workflows. Among others it can be used to build and deploy the app, swap the staging environment out to production without users noticing it and to copy data over from the production environment to staging. And your developers get anonymized DB snapshots delivered to a repository!
 - Designed to be extensible, the Suite exposes many events and other extension points for developers to use. Features, although enhancing each other, can be used and turned on or off independently.
 
 And you can retrofit any existing Orchard app with the Hosting Suite!
@@ -85,14 +85,14 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 - [Lombiq.Hosting.Readonly](https://github.com/Lombiq/Orchard-Read-only): adds the ability to set a site into read-only mode (i.e. no content can be saved but the site is viewable normally). This enables safe deployment scenarios where before updating the application its database is backed up, as Readonly prevents data loss in such a transitional state.
 - [Lombiq.Hosting.RecipeRemoteExecutor](https://github.com/Lombiq/Orchard-Recipe-Remote-Executor): allows to execute recipes (for a single tenant or for multiple tenants in a multi-tenant setup) through an authenticated web API. This is a lightweight option to make automatable changes to Orchard sites remotely.
 
-### No down-time deployment
+### No down-time deployment and continuous integration
 
-All our websites, including DotNest is deployed and maintained using a technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure App Services (its real power can be harnessed with the staged publishing feature) and Azure SQL. The most important features are:
+All our websites, including DotNest is deployed and maintained using a [TeamCity](https://www.jetbrains.com/teamcity/)-integrated technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure App Services (its real power can be harnessed with the staged publishing feature) and Azure SQL databases. The most important features are:
 
-- Easy usage and customizability: you can easily manage any number of Azure App Services across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
-- Database backup from Azure SQL.
+- Swapping the staging environment out to production, which includes updating the App Settings and Connection Strings in both environments. With this you can push out new versions of the app without users noticing anything.
+- Automated periodic anonymized DB snapshots pushed to a repository so developers can always test with the latest data from production.
 - Ability to replace the staging database with the production one, so you can test your application in the staging environment with up-to-date data.
-- Swapping the staging environment out to production, which includes updating the App Settings and Connection Strings in both environments.
+- Easy usage and customizability: you can easily manage any number of Azure App Services across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
 
 ### Reverse cache proxy
 
