@@ -107,6 +107,12 @@ Some other features extending the above ones in the Lombiq.Hosting.Extensions mo
 - Distributed event raising implementation using a file system watcher for Distributed Events that can be used in environments where the file system is shared among server nodes (usable e.g. on Azure App Services or with a shared storage folder).
 - HTTP module for restoring the original HTTP Host header if the application is behind a reverse proxy.
 
+### Safe custom theming with Media Theme
+
+With the Media Theme feature of the Hosting Suite it's possible to provide full theming capabilities to each of the tenants in a multi-tenant Orchard application without the use of standard theme projects: Media Themes, similar to normal themes, can be developed in Visual Studio (or another IDE) then deployed from source control to tenants. Media Theme is also [available on DotNest](theming/).
+
+Such themes can use a programming model safe even in a completely public SaaS like DotNest: each tenant can have its own theme with [Liquid markup templates](https://shopify.github.io/liquid/), CSS, JS and graphic files and anything else client-side, without endangering other tenants. Site owners can thus add their own themes and you don't need to have a separate theme project in your app's solution for each of them!
+
 
 ## Getting the Hosting Suite
 
