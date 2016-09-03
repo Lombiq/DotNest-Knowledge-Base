@@ -45,6 +45,7 @@ You can even override shape templates by adding templates to your theme written 
 
 For samples on how such a theme looks see:
 
+- [Student Partner Blog Theme](https://bitbucket.org/barthamark/student-partner-blog-theme/) for [http://mspblog.hu/](http://mspblog.hu/).
 - [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest.
 - Another example theme by Abhishek Luv can be accessed under [its GitHub repository](https://github.com/abhishekluv/mydotnesttheme) (the theme can also be deployed from GitHub).
 - [Elemental Gankery Theme](https://bitbucket.org/benedekfarkas/elemental-gankery-media-theme/overview) for [http://elementalgankery.dotnest.com/](http://elementalgankery.dotnest.com/).
