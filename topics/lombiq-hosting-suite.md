@@ -90,8 +90,8 @@ The below modules improve how maintenance tasks can be executed on Orchard appli
 All our websites, including DotNest is deployed and maintained using a [TeamCity](https://www.jetbrains.com/teamcity/)-integrated technology package that provides the ability to push updates into production seamlessly with a few clicks. This technology package is set of PowerShell scripts, which means that it can be easily integrated with any continuous integration software. You can also use it independently of the Hosting Suite (and the Hosting Suite can be utilized without this deployment package), but they create a powerful toolkit in terms of application maintenance when used together. The deployment package can be utilized with Azure App Services (its real power can be harnessed with the staged publishing feature) and Azure SQL databases. The most important features are:
 
 - Swapping the staging environment out to production, which includes updating the App Settings and Connection Strings in both environments. With this you can push out new versions of the app without users noticing anything.
-- Automated periodic anonymized DB snapshots pushed to a repository so developers can always test with the latest data from production.
-- Ability to replace the staging database with the production one, so you can test your application in the staging environment with up-to-date data.
+- Automated periodic anonymized (or otherwise transformed) DB and Media snapshots pushed to a repository so developers can always test with the latest data from production.
+- Ability to replace the staging database and Media folder with the production one, so you can test your application in the staging environment with up-to-date data.
 - Easy on-demand collection of all Orchard and Azure logs that developers can download in a ZIP file for troubleshooting.
 - Easy usage and customizability: you can easily manage any number of Azure App Services across multiple Azure subscriptions. Each script is highly parameterized so that you can adapt their behaviour according to the current situation.
 
