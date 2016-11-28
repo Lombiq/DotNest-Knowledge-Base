@@ -33,7 +33,7 @@ The zip package that should be deployed should contain the full folder hierarchy
 
 The theme package should follow these conventions:
 
-- Place the favicon into Images/favicon.ico and it will be automatically picked up (optional).
+- Place the favicon into Images/favicon.ico and it will be automatically picked up (optional). This works only if you don't override the Layout shape; if you do then you need to add the favicon from Liquid.
 - If you use any, place stylesheets into the Styles and scripts into the Scripts folder (just as usual).
 - Placement.info should be on the same level as the Theme.txt file (optional).
 
