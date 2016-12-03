@@ -33,11 +33,11 @@ The zip package that should be deployed should contain the full folder hierarchy
 
 The theme package should follow these conventions:
 
-- Place the favicon into Images/favicon.ico and it will be automatically picked up (optional). This works only if you don't override the Layout shape; if you do then you need to add the favicon from Liquid.
+- Place the favicon into Images/favicon.ico and it will be automatically picked up (optional).
 - If you use any, place stylesheets into the Styles and scripts into the Scripts folder (just as usual).
 - Placement.info should be on the same level as the Theme.txt file (optional).
 
-For using stylesheets and scripts you can simply include the common stylesheet in Styles/site.css (you can still develop with multiple stylesheets for a better structure, just in the end bundle them to a single file e.g. by using the import statement of [LESS](http://lesscss.org/)), scripts in Scripts/site-head.js and Scripts/site-foot.js (for head and foot scripts, respectively; you can bundle multiple scripts with e.g. [TypeScript](http://www.typescriptlang.org/)'s reference statement). This works only if you don't override the Layout shape; you can, however, include an arbitrary set of stylesheets and scripts in an arbitrary order from templates as usual with Liquid, see below.
+For using stylesheets and scripts you can simply include the common stylesheet in Styles/site.css (you can still develop with multiple stylesheets for a better structure, just in the end bundle them to a single file e.g. by using the import statement of [LESS](http://lesscss.org/)), scripts in Scripts/site-head.js and Scripts/site-foot.js (for head and foot scripts, respectively; you can bundle multiple scripts with e.g. [TypeScript](http://www.typescriptlang.org/)'s reference statement). You can, however, include an arbitrary set of stylesheets and scripts in an arbitrary order from templates as usual with Liquid, see below.
 
 You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). You can even include static resources from such templates in arbitrary ways. See [the documentation of the Orchard Liquid Markup module](https://github.com/Lombiq/Orchard-Liquid-Markup) for more information on what you can do with such templates.
 
