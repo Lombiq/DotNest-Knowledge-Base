@@ -23,7 +23,7 @@ You can even override shape templates by enabling the Liquid Markup Templates fe
 
 ## Developing a theme and deploying it to your site with Media Theme
 
-DotNest sites include the Media Theme theme and the Media Theme Deployment module: the theme enables you to extract a theme to the MediaTheme folder in Media (with regular Placement.info, Scripts and Styles folder) and use those. Just set the MediaTheme as the current theme; if you want to have automatic deployment for such theme packages then also enable the Media Theme Deployment module and configure it from Media Theme Deployment Configuration under Themes.
+DotNest sites include the Media Theme theme and the Media Theme Deployment module: the theme enables you to extract a theme to the MediaTheme folder in Media (with regular Placement.info, Scripts and Styles folder) and use those. Just set the MediaTheme as the current theme; if you want to have automatic deployment for such theme packages then also enable the Media Theme Deployment module and configure it from Media Theme Deployment Configuration under Themes. If you're not familiar with how theme development for Orchard works take a look at [the docs](http://docs.orchardproject.net/en/latest/Documentation/Customizing-the-default-theme/).
 
 You can just use the Media Theme theme and store your theme files (stylesheets, scripts, Placement.info) under the MediaTheme folder in Media Library but it's better to use the theme together with the Media Theme Deployment module so you can take advantage of the automatic theme package deployment, outlined below.
 
