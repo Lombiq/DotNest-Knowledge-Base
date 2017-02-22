@@ -1,5 +1,6 @@
 - [What is DotNest?](topics/about-dotnest)
 - [Who operates DotNest?](topics/about-lombiq)
+- [Case studies](topics/case-studies)
 - [Getting started with Orchard](topics/getting-started-with-orchard)
 - [How does DotNest work?](topics/under-the-hood)
 - [What is automatically managed by DotNest for your site?](topics/managed-by-dotnest)

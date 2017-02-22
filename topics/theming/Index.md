@@ -2,7 +2,7 @@
 
 
 
-Although you can't install custom themes on DotNest (see "[Limitations](limitations)") you still have a lot of control over theming. You can even develop usual Orchard themes in Visual Studio and get them automatically deployed from source control!
+Although you can't install custom themes on DotNest (see "[Limitations](../limitations)") you still have a lot of control over theming. You can even develop usual Orchard themes in Visual Studio and get them automatically deployed from source control!
 
 There are basically two options to style your site on DotNest:
 
