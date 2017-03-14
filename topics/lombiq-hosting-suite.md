@@ -114,6 +114,10 @@ With the Media Theme feature of the Hosting Suite it's possible to provide full 
 
 Such themes can use a programming model safe even in a completely public SaaS like DotNest: each tenant can have its own theme with [Liquid markup templates](https://shopify.github.io/liquid/), CSS, JS and graphic files and anything else client-side, without endangering other tenants. Site owners can thus add their own themes and you don't need to have a separate theme project in your app's solution for each of them!
 
+### Algolia hosted search
+
+The standard Lucene Orchard search with can be swapped out with the hosted [Algolia search engine](http://algolia.com/) which provides very fast instant-like search. The [Algolia Search mdoule](https://github.com/Lombiq/Orchard-Algolia-Search] provides an easy way to plug Algolia into Orchard. If you want to check out how such search works, see the [Orchard Algolia Search Demo site](https://algoliasearchdemo.dotnest.com) here on DotNest.
+
 
 ## Getting the Hosting Suite
 
