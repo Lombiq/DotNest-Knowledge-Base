@@ -57,5 +57,6 @@ For samples on how such a theme looks see:
 - [Elemental Gankery Theme](https://bitbucket.org/benedekfarkas/elemental-gankery-media-theme/overview) for [http://elementalgankery.dotnest.com/](http://elementalgankery.dotnest.com/).
 - [Spring Harvest Challenge Theme](https://bitbucket.org/Lombiq/orchard-spring-harvest-challenge-theme) for [http://harvestchallenge.net/](http://harvestchallenge.net/).
 - [Orchard Ambassadors theme](https://bitbucket.org/Lombiq/orchard-ambassadors-theme) for [http://ambassadors.orchardproject.net/](http://ambassadors.orchardproject.net/).
+- [Basic Blog Theme](https://github.com/barthamark/basic-blog-theme): a simple and clean blog theme.
 
 When developing the theme locally you can import the [test content export files](http://orcharddojo.net/orchard-resources/Library/Utilities/TestContent/) from the Dojo Library to instantly get a site full of sample content.
