@@ -116,7 +116,7 @@ Such themes can use a programming model safe even in a completely public SaaS li
 
 ### Algolia hosted search
 
-The standard Lucene Orchard search with can be swapped out with the hosted [Algolia search engine](http://algolia.com/) which provides very fast instant-like search. The [Algolia Search mdoule](https://github.com/Lombiq/Orchard-Algolia-Search] provides an easy way to plug Algolia into Orchard. If you want to check out how such search works, see the [Orchard Algolia Search Demo site](https://algoliasearchdemo.dotnest.com) here on DotNest.
+The standard Lucene Orchard search with can be swapped out with the hosted [Algolia search engine](http://algolia.com/) which provides very fast instant-like search. The [Algolia Search module](https://github.com/Lombiq/Orchard-Algolia-Search) provides an easy way to plug Algolia into Orchard. If you want to check out how such search works, see the [Orchard Algolia Search Demo site](https://algoliasearchdemo.dotnest.com) here on DotNest.
 
 
 ## Getting the Hosting Suite
