@@ -13,7 +13,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Azure Application Insights](https://github.com/Lombiq/Orchard-Azure-Application-Insights) by [Lombiq](https://lombiq.com) so you can collect telemetry data for your site in Azure (see [Collecting usage telemetry of your DotNest sites with Azure Application Insights](collecting-usage-telemetry-with-azure-application-insights))
 - [Combinator](https://github.com/Lombiq/Combinator) by [Lombiq](https://lombiq.com) for CSS/JS bundling and minifaction to speed up page loads.
 - [Favorite](https://github.com/Jetski5822/NGM.Favorite) by [Nick Mayne](https://github.com/Jetski5822): users can mark content items as their favorite.
-- [Feed Aggregator](https://github.com/Lombiq/Orchard-Feed-Aggregator) by [Lombiq](https://lombiq.com): syncs RSS and Atom feeds to content items.
+- [Feed Aggregator](https://github.com/Lombiq/Orchard-Feed-Aggregator) by [Lombiq](https://lombiq.com): syncs RSS and Atom feeds to content items. Also used on [Orchard Blogs](https://orchardblogs.dotnest.com/).
 - [Forum](https://github.com/Jetski5822/NGM.Forum) by [Nick Mayne](https://github.com/Jetski5822): creating a content structure of Forums, Threads and Posts to allow your users to communicate with each other easily.
 - [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions) by [Lombiq](https://lombiq.com): adds, among others, some useful tokens and extends Projections with new filters.
 - [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries) by [Lombiq](https://lombiq.com): contains a lot of developer-focused libraries used by other modules.
