@@ -58,7 +58,7 @@ Other themes by [Lombiq](https://lombiq.com):
 
 - [Orchard Community Theme](https://github.com/Lombiq/Orchard-Community-Theme): Orchard community website theme used by e.g. [Orchard India](http://orchardproject.net.in/) and [Orchard Hungary](http://english.orchardproject.hu/). It's only allowed for Orchard community websites: If you run an Orchard community website and want to move it to DotNest [write us](https://dotnest.com/contact-us) and you'll get access to the theme as well as free custom domain usage!
 - [Pretty Good Base Theme](https://github.com/Lombiq/Pretty-Good-Base-Theme) used as a base theme for Orchard Community Theme and also only available for Orchard community websites. If you're building your own theme then you should use Pretty Good **Bootstrap** Base Theme.
-- [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme-Sample) as a theming base for customized Bootstrap-based styling.
+- [Pretty Good Bootstrap Base Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme) as a theming base for customized Bootstrap-based styling.
 - DotNest Empty Theme: A totally empty theme so you can style your site from the UI from scratch ([learn more about theming](theming/)).
 
 Remember that you can also theme your website in a completely customized way too. [Click to learn more](theming/).
