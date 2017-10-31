@@ -5,7 +5,7 @@
 Again you have two options:
 
 - Implementing a theme by saving the CSS, JS and Placement from the admin UI with the Theme Override module
-- Developing an Orchard theme as usual in you favorite IDE (preferably Visual Studio) and optionally deploying it from source control automatically. **If you're a hardcore developer, you may want to use this approach!**
+- Developing an Orchard theme as usual in you favorite IDE (preferably Visual Studio) and optionally deploying it from source control automatically. The recommended way to start is by using the DotNest SDK, which is available on [GitHub](https://github.com/Lombiq/DotNest-SDK) and on [Bitbucket (Mercurial)](https://bitbucket.org/Lombiq/dotnest-sdk) - make sure to read the Readme! **If you're a hardcore developer, you may want to use this approach!**
 
 
 ## Building a theme from the admin UI
@@ -55,7 +55,7 @@ For samples on how such a theme looks see:
 - [GPU Day theme](https://bitbucket.org/Lombiq/gpu-day-theme) for [http://gpuday.com/](http://gpuday.com/).
 - [NativeHungarian.com theme's repository](https://bitbucket.org/lehoczky_zoltan/native-hungarian-theme). The theme is automatically deployed from the repository to the [Native Hungarian website](http://nativehungarian.com/), running on DotNest.
 - Another example theme by Abhishek Luv can be accessed under [its GitHub repository](https://github.com/abhishekluv/mydotnesttheme) (the theme can also be deployed from GitHub).
-- [Elemental Gankery Theme](https://bitbucket.org/benedekfarkas/elemental-gankery-media-theme/overview) for [http://elementalgankery.dotnest.com/](http://elementalgankery.dotnest.com/).
+- [Elemental Gankery Theme](https://bitbucket.org/benedekfarkas/elemental-gankery-media-theme) for [http://elementalgankery.dotnest.com/](http://elementalgankery.dotnest.com/).
 - [Spring Harvest Challenge Theme](https://bitbucket.org/Lombiq/orchard-spring-harvest-challenge-theme) for [http://harvestchallenge.net/](http://harvestchallenge.net/).
 - [Orchard Ambassadors theme](https://bitbucket.org/Lombiq/orchard-ambassadors-theme) for [http://ambassadors.orchardproject.net/](http://ambassadors.orchardproject.net/).
 
