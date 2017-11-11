@@ -50,6 +50,7 @@ If you want to test your theme locally during development you can also do that .
 
 For samples on how such a theme looks see:
 
+- [Show Orchard theme](https://github.com/Lombiq/Show-Orchard-Theme) for [http://showorchard.com](http://showorchard.com).
 - [Student Partner Blog Theme](https://bitbucket.org/barthamark/student-partner-blog-theme/) for [http://mspblog.hu/](http://mspblog.hu/).
 - [The Vassal Centre's theme](https://github.com/AEdmunds/Vassall-Theme) for [http://vcconferences.co.uk/](http://vcconferences.co.uk/).
 - [GPU Day theme](https://bitbucket.org/Lombiq/gpu-day-theme) for [http://gpuday.com/](http://gpuday.com/).
