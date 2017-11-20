@@ -46,8 +46,8 @@ The below modules of the Hosting Suite greatly improve Orchard's multi-tenant ca
     - Makes the tenant management admin page only fetch what it displays and adds paging for long lists of tenants. This removes any limitation on the number of tenants that can be managed from the admin UI. Tenant management UI also got some further improvements, e.g. the ability to jump to a tenant by using its name, the ability to edit all shell settings (not just the default ones) and the ability to remove tenants from the UI.
     - Adds UI for logging in as the superuser of a tenant for administrative purposes.
     - Displays which tenants are running (started by on demand on their first hit) and which ones are sleeping.
-    - Displays the last occurence date of the important activities (user logins, content modificatoins) on the tenants. ALso, displays the number of these events occured per month.
-    - Displays that on how many tenants a module is enabled to learn which are the popular ones.
+    - Displays the last occurrence date of the important activities (user logins, content modifications) on the tenants. Also, displays the number of these events occurred per month.
+    - Displays on how many tenants a module is enabled to learn which are the popular ones.
     - Gives the ability to list the tenants by their Media folder sizes or by the number of content items.
 - Lombiq.Hosting.MultiTenancy.Tenants: runs on the tenants of a hosting environment. Provides the following services:
     - Feature guard: prevents configured features from being turned on or off on tenants, providing configurable constraints on what tenants can do.
