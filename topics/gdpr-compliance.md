@@ -13,7 +13,7 @@ If you're using a custom Analytics script on your site then you may only enable 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-xx"></script>
     <script>
-        if (typeof ConsentCookie != "undefined" && !ConsentCookie.HasConsentCookie()) {
+        if (!window["user-is-authenticated"] && typeof ConsentCookie != "undefined" && !ConsentCookie.HasConsentCookie()) {
             window['ga-disable-UA-xxxxxxxx-xx'] = true;
         }
         window.dataLayer = window.dataLayer || [];
@@ -23,6 +23,6 @@ If you're using a custom Analytics script on your site then you may only enable 
         gtag('config', 'UA-xxxxxxxx-xx');
     </script>   
  
-The check in the first line will disable tracking if the user hasn't given consent. This check won't run (`ConsentCookie` will be `undefined`) if the user is authenticated, which is expected: If you let users register then you should also enable the "Lombiq Privacy - Registration consent" feature, thus every authenticated user will have already given consent.
+The check in the first line will disable tracking if the user hasn't given consent. This check won't run (`window["user-is-authenticated"]` will be `false` or `undefined`) if the user is authenticated: The reason is that if you let users register then you should also enable the "Lombiq Privacy - Registration consent" feature, thus every authenticated user will have already given consent.
 
 If you're using custom forms on your website created with the Dynamic Forms modules then make sure to also enable the "Lombiq Privacy - Form consent" feature and add the privacy consent-asking Element of it to your forms.
