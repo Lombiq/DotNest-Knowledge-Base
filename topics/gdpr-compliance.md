@@ -13,7 +13,7 @@ If you're using a custom Analytics script on your site then you may only enable 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-xx"></script>
     <script>
-        if (!window["user-is-authenticated"] && typeof ConsentCookie != "undefined" && !ConsentCookie.HasConsentCookie()) {
+        if (!window['user-is-authenticated'] && typeof ConsentCookie !== 'undefined' && !ConsentCookie.HasConsentCookie()) {
             window['ga-disable-UA-xxxxxxxx-xx'] = true;
         }
         window.dataLayer = window.dataLayer || [];
