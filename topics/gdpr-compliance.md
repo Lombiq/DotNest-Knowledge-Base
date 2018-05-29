@@ -4,6 +4,8 @@
 
 DotNest is compliant with the [EU GDPR](https://www.eugdpr.org/) (General Data Protection Regulation). If you're a company and an owner of a DotNest site you need to make your visitors aware of DotNest's [privacy policy](https://lombiq.com/privacy-policy) and ask for their consent to data collection.
 
+**Looking to make an on-premise Orchard site GDPR compliant?** The DevOps framework behind DotNest, the [Lombiq Hosting Suite](lombiq-hosting-suite) can help you with that, so can our team. Just [get in touch with us](/contact-us)!
+
 Please note that all DotNest sites gather anonymous usage statistics so we have data to improve the platform. Such data is collected in accordance of our [privacy policy](https://lombiq.com/privacy-policy) using Google Analytics and Azure Application Insights. As an owner of a DotNest site it's your responsibility to make your visitors aware about this and any further data collection, cookies’ usage taking place on this site and guarantee the site’s compliance with GDPR.
 
 To help you with this we've included the [Lombiq.Privacy module](https://github.com/Lombiq/Orchard-Privacy): After enabling its "Lombiq Privacy - Consent banner" feature it'll display a privacy consent banner on your site. The text of the banner is configurable from under the Orchard site settings.
