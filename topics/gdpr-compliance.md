@@ -8,7 +8,7 @@ DotNest is compliant with the [EU GDPR](https://www.eugdpr.org/) (General Data P
 
 Please note that all DotNest sites gather anonymous usage statistics so we have data to improve the platform. Such data is collected in accordance of our [privacy policy](https://lombiq.com/privacy-policy) using Google Analytics and Azure Application Insights. As an owner of a DotNest site it's your responsibility to make your visitors aware about this and any further data collection, cookies’ usage taking place on this site and guarantee the site’s compliance with GDPR.
 
-To help you with this we've included the [Lombiq.Privacy module](https://github.com/Lombiq/Orchard-Privacy). Note that using the module won't make your site automatically GDPR-compliant, you'll need to create a privacy policy for your site at least as wel land link it from the various consent-collecting texts.
+To help you with this we've included the [Lombiq.Privacy module](https://github.com/Lombiq/Orchard-Privacy). Note that using the module won't make your site automatically GDPR-compliant, you'll need to create a privacy policy for your site at least as well and link it from the various consent-collecting texts.
 
 
 ## Privacy consent banner for any data collection and analytics
@@ -40,7 +40,7 @@ The check in the first line will disable tracking if the user hasn't given conse
 To collect consent on user registration enable the "Lombiq Privacy - Registration consent" feature. This will display a consent checkbox with some text on the registration screen. Just as with the consent banner feature you have to configure the displayed text.
 
 
-## Constent checkbox on any form
+## Consent checkbox on any form
 
 If you're using custom forms on your website created with the Dynamic Forms modules (or display content item editors on the frontend) then make sure to also enable the "Lombiq Privacy - Form consent" feature and add the privacy consent-asking Element of it to your forms.
 
