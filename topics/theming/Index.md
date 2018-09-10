@@ -4,6 +4,8 @@
 
 Although you can't install custom themes on DotNest (see "[Limitations](../limitations)") you still have a lot of control over theming. You can even develop usual Orchard themes in Visual Studio and get them automatically deployed from source control!
 
+**Note** that theming on DotNest closely follows standard Orchard theming techniques, so if you're not familiar with that, check out [the Orchard docs first](http://docs.orchardproject.net/en/latest/). What is explained here builds on the general Orchard theming knowledge.
+
 There are basically two options to style your site on DotNest:
 
 - [Extending a theme available on DotNest](extending-a-theme-available-on-dotnest)

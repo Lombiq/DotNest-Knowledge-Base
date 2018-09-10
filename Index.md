@@ -13,5 +13,6 @@
 - [Content features](topics/content-features)
 - [Collecting usage telemetry of your sites with Azure Application Insights](topics/collecting-usage-telemetry-with-azure-application-insights)
 - [Security](topics/security)
+- [GDPR compliance](topics/gdpr-compliance)
 - [Migrating your site to DotNest](topics/migrating-to-dotnest)
 - [Limitations](topics/limitations)
