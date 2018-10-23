@@ -17,7 +17,7 @@ The Lombiq Hosting Suite is a set of Orchard modules, an Azure Cloud Service imp
 
 And you can retrofit any existing Orchard app with the Hosting Suite!
 
-**How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you!**
+**How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you! The proprietary parts of the Hosting Suite are available both for one-time purchase and as a monthly service as well.**
 
 
 ## Detailed features, per components of the Hosting Suite
@@ -125,6 +125,6 @@ The standard Lucene Orchard search with can be swapped out with the hosted [Algo
 
 ## Getting the Hosting Suite
 
-The linked modules are open source modules and free to use. Lombiq offers commercial-grade support for integrating and extending these modules. The other parts of the Hosting Suite are proprietary and Lombiq offers flexible licenses for them.
+The linked modules are open source modules and free to use. Lombiq offers commercial-grade support for integrating and extending these modules. The other parts of the Hosting Suite are proprietary and Lombiq offers flexible licenses for them, both for one-time purchase and as a monthly service.
 
-**How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you!**
+**How can the Hosting Suite help me? [Ask us](http://lombiq.com/contact-us) at Lombiq and we'll work it out for you! The proprietary parts of the Hosting Suite are available both for one-time purchase and as a monthly service as well.**
