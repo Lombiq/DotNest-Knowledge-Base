@@ -13,4 +13,18 @@ On DotNest you can use your custom domain name with your site too instead of the
 
 Your site now should listen to your custom domain, enjoy!
 
-Once you set up your custom domain any requests to the standard DotNest subdomain will be redirected to your custom domain (i.e. if users open your site with the old mysite.dotnest.com address then they will get redirected to mydomain.com). Exception is a secure request: if the request goes through SSL to your site then that won't get redirected. The reason is that SSL is not available for custom domains out of the box so this way you can still administer your site securely. However you can try services like [CloudFlare](https://www.cloudflare.com/) to put your site behind SSL for free, even using your custom domain. See [this guide](http://www.troyhunt.com/2015/04/how-to-get-your-ssl-for-free-on-shared.html) on how to configure CloudFlare for DotNest (the steps outlined there also apply to DotNest sites); you can enable Full SSL in CloudFlare.
+Once you set up your custom domain any requests to the standard DotNest subdomain will be redirected to your custom domain (i.e. if users open your site with the old mysite.dotnest.com address then they will get redirected to mydomain.com). Exception is a secure request: if the request goes through SSL to your site then that won't get redirected. The reason is that SSL is not available for custom domains out of the box so this way you can still administer your site securely. However you can still secure your site under a custom domain, see below.
+
+
+## Using SSL (HTTPS) with your custom domain
+
+Out of the box DotNest doesn't offer secure SSL (HTTPS) connections to sites under a custom domain. However you can easily secure your website with [Cloudflare](https://www.cloudflare.com/) for free as following (you only need to do this for your custom domain, your default mysite.dotnest.com is automatically protected!). As an added benefit you'll also get some further features from Cloudflare, like visitor statistics and a firewall, or even perks like automatic obfuscation of e-mail addresses visible on the site (so spambots can't gather them).
+
+1. Sign up on [Cloudflare](https://www.cloudflare.com/) if you don't yet have an account.
+2. Select to add a site and use your custom domain name.
+![Add site step on Cloudflare](attachments/custom-domains/cloudflare-add-site.jpg "Add site step on Cloudflare")
+3. Follow the instructions, but select the Free plan (unless you want to have the premium features of course, but for basic SSL the Free plan is enough).
+4. Allow web traffic to go through Cloudflare for your site. This will allow Cloudflare to supply and SSL certificate for your website.
+![DNS setup step on Cloudflare](attachments/custom-domains/cloudflare-dns-setup.jpg "DNS setup step on Cloudflare")
+5. Continue following the instructions to change your domain's nameservers.
+6. Once the nameserver changes have been propagates and your site is being served through Cloudflare SSL access will just magically work! You'll be able to visit https://mydotnestsite.com and you shouldn't get any errors. All the default settings provided by Cloudflare are suitable and you don't need to change anything. The SSL certificate will be automatically renewed, so nothing else for you to do.
