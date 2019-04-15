@@ -41,12 +41,7 @@ For using stylesheets and scripts you can simply include the common stylesheet i
 
 You can even override shape templates by adding templates to your theme written in the [Liquid Markup language](http://liquidmarkup.org/) (just add .liquid files in the same way you'd add .cshtml files). You can even include static resources from such templates in arbitrary ways. See [the documentation of the Orchard Liquid Markup module](https://github.com/Lombiq/Orchard-Liquid-Markup) for more information on what you can do with such templates.
 
-If you want to test your theme locally during development you can also do that .[Install Orchard locally](http://docs.orchardproject.net/en/latest/Documentation/Installing-Orchard/) as usual (preferably use the same version that runs on DotNest) and develop the theme:
-
-- Add your theme as a standard theme project and do the development as outlined above.
-- Also add the [Liquid Markup module](https://github.com/Lombiq/Orchard-Liquid-Markup) if you want to create Liquid templates. Enable its "Liquid Markup View Engine" feature to get Liquid support, then you'll be able to add Liquid templates as files to your theme just as you would with Razor templates.
-- Add any modules available on DotNest that you intend to use for theme development.
-- You can synchronize content between your DotNest site and the local installation with the Import Export module using recipes.
+If you want to test your theme locally during development you can also do that. Use the [DotNest SDK](https://github.com/Lombiq/DotNest-SDK) as a local testbed.
 
 For samples on how such a theme looks see:
 
