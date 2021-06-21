@@ -21,7 +21,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Lombiq Layouts](https://github.com/Lombiq/Lombiq-Layouts) by [Lombiq](https://lombiq.com): adds some useful Layouts Elements, including a Slider Element that can be used to easily build configurable image sliders/carousels.
 - [Lombiq Privacy](https://github.com/Lombiq/Orchard-Privacy) by [Lombiq](https://lombiq.com): adds privacy policy consent asking features, including a banner shown to everybody and checkboxes to the registration and other forms. You can use this feature as part of being compliant with [GDPR](https://www.eugdpr.org/).
 - [NogginBox Owner Queries](https://bitbucket.org/Lombiq/owner-queries-orchard-module) by [Richard Garside](http://www.nogginbox.co.uk/): adds the ability to filter on content by its owner to Projector as well as to display content items created by a user under their profile (works together with the below Profile module).
-- [Profile](http://orchardprofile.codeplex.com/) by [Sebastien Ros](http://sebastienros.com/): users can have profiles with this module. By adding fields to the User content type you can e.g. have bio fields in profiles.
+- [Profile](https://github.com/Lombiq/Orchard-Profile) by [Sebastien Ros](http://sebastienros.com/): users can have profiles with this module. By adding fields to the User content type you can e.g. have bio fields in profiles.
 - [Social Meta Tags](https://github.com/bhavinbdoshi/Om.Orchard.SocialMetaTags) by [Bhavin Doshi](https://github.com/bhavinbdoshi): adds meta tags for various social networks (Open Graph Tags for Facebook/Google/Pinterest/LinkedIn and Twitter Card Tags) and Google Authorship tags.
 - [Orchard Liquid Markup](https://github.com/Lombiq/Orchard-Liquid-Markup) by [Lombiq](https://lombiq.com) for writing templates in the [Liquid Markup language](http://liquidmarkup.org/).
 - Media Theme Deployment by [Lombiq](https://lombiq.com) for automatically deploying a theme from source control (see  [theming](theming)).
@@ -30,7 +30,7 @@ The following modules and themes are available on all DotNest sites. You can wat
 - [Target: Blank](https://github.com/Lombiq/Orchard-Target-Blank) by [Lombiq](https://lombiq.com): after you enable it all the outbound links on your site will open in a new tab.
 - [Theme Override](https://github.com/Lombiq/Orchard-Theme-Override) by [Lombiq](https://lombiq.com) so sites can be freely styled ([learn more about theming](theming)).
 - [Vote Up/Down](https://github.com/Jetski5822/NGM.VoteUpDown) by [Nick Mayne](https://github.com/Jetski5822): users can vote content items up/down with arrows to show if whether they like it.
-- [Voting API](http://orchardvoting.codeplex.com/) by [Sebastien Ros](http://sebastienros.com/): provides basic voting-related services that are used by the Favorite and Vote Up/Down modules.
+- [Voting API](https://github.com/Lombiq/Orchard-Voting-API) by [Sebastien Ros](http://sebastienros.com/): provides basic voting-related services that are used by the Favorite and Vote Up/Down modules.
 - [Watcher](https://github.com/Lombiq/Orchard-Watcher) by [Lombiq](https://lombiq.com), that allows users to watch content items and setup workflows to recieve notifications when content is created/updated.
 
 If you'd like another module (also if it's developed by you) to be available on DotNest then [contact us](https://dotnest.com/contact-us)!
